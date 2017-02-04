@@ -1,0 +1,267 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-07-15", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-07-15", 
+      "action_code": "", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [
+        {
+          "reference": "CR S5131", 
+          "type": "Sponsor introductory remarks on measure"
+        }
+      ], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Indian Affairs.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2015-07-22", 
+      "action_code": "", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Committee on Indian Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2016-02-29", 
+      "action_code": "", 
+      "committee": "Indian Affairs", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [], 
+      "text": "Committee on Indian Affairs. Reported by Senator Barrasso with an amendment in the nature of a substitute. With written report No. 114-217.", 
+      "type": "reported"
+    }, 
+    {
+      "acted_at": "2016-02-29", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "378", 
+      "references": [], 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 378.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7147-7149", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S7147-7148", 
+          "type": "text of measure as reported in Senate"
+        }
+      ], 
+      "text": "Measure laid before Senate by unanimous consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7148", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "The committee substitute withdrawn by Unanimous Consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "how": "by Unanimous Consent", 
+      "references": [], 
+      "result": "pass", 
+      "status": "PASS_OVER:SENATE", 
+      "text": "Passed Senate with an amendment by Unanimous Consent.", 
+      "type": "vote", 
+      "vote_type": "vote", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-12-12", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-12T15:05:19-05:00", 
+      "action_code": "H14000", 
+      "references": [], 
+      "text": "Received in the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-12T16:50:10-05:00", 
+      "action_code": "H15000", 
+      "references": [], 
+      "text": "Held at the desk.", 
+      "type": "action"
+    }
+  ], 
+  "amendments": [
+    {
+      "amendment_id": "samdt5184-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5184"
+    }
+  ], 
+  "bill_id": "s1776-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [
+    "S. Rept. 114-217"
+  ], 
+  "committees": [
+    {
+      "activity": [
+        "reporting", 
+        "markup", 
+        "referral"
+      ], 
+      "committee": "Senate Indian Affairs", 
+      "committee_id": "SLIA"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "C000880", 
+      "district": null, 
+      "name": "Crapo, Mike", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2015-07-15", 
+      "state": "ID", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "R000605", 
+      "district": null, 
+      "name": "Rounds, Mike", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-04-05", 
+      "state": "SD", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": true, 
+    "active_at": "2016-02-29", 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "senate_passage_result": "pass", 
+    "senate_passage_result_at": "2016-12-10", 
+    "vetoed": false
+  }, 
+  "introduced_at": "2015-07-15", 
+  "number": "1776", 
+  "official_title": "A bill to enhance tribal road safety, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "TIRES Act", 
+  "sponsor": {
+    "bioguide_id": "B001261", 
+    "district": null, 
+    "name": "Barrasso, John", 
+    "state": "WY", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "PASS_OVER:SENATE", 
+  "status_at": "2016-12-10", 
+  "subjects": [
+    "Congressional oversight", 
+    "Environmental assessment, monitoring, research", 
+    "Federal-Indian relations", 
+    "Government information and archives", 
+    "Government studies and investigations", 
+    "Indian lands and resources rights", 
+    "Inflation and prices", 
+    "Land use and conservation", 
+    "Railroads", 
+    "Roads and highways", 
+    "Transportation and public works", 
+    "Transportation programs funding", 
+    "Transportation safety and security"
+  ], 
+  "subjects_top_term": "Transportation and public works", 
+  "summary": {
+    "as": "Reported to Senate amended", 
+    "date": "2016-02-29T14:13:22Z", 
+    "text": "Tribal Infrastructure and Roads Enhancement and Safety Act or the TIRES Act \n\n(Sec. 3) This bill modifies the approval process used for certain transportation projects on Indian reservations by furnishing categorical exclusions from National Environmental Policy Act (NEPA) requirements and establishing expedited approval procedures.\n\n(A \"categorical exclusion\" is a category of actions which do not individually or cumulatively have a significant effect on the human environment and which have been found to have no such effect in procedures adopted by a federal agency in implementing environmental regulations and for which, therefore, neither an environmental assessment nor an environmental impact statement is required.) The bill deems a highway project, including one administered by the Bureau of Indian Affairs (BIA), which is located on a road eligible for assistance under the tribal transportation program, categorically excluded from NEPA requirements if it qualifies for an exclusion under the Moving Ahead for Progress in the 21st Century Act (MAP-21) and other laws, and would meet these requirements if the project sponsor were a state agency.\n\n(Sec. 4) MAP-21 is amended to require the Department of the Interior to use an expedited approval process for certain projects, including tribal public safety projects, that are within an existing operational right-of-way on an Indian reservation. (An operational right-of-way includes property acquired for the construction, operation, or mitigation of a highway project.)\n\nA \"tribal public safety project\" is one that:\n\n corrects or improves a hazardous road location or feature, or addresses a highway safety problem. Categorically excluded from NEPA requirements is any project within an existing operational right-of-way on an Indian reservation that is:\n\n for a maintenance or preservation activity, whether or not federally funded, within the existing operational right-of-way, including for roadside ditches; or a tribal public safety project or a project that the tribal department of transportation or the equivalent (or an official representing an Indian tribe without such a department) that extends a safety benefit to the public. A federal agency must take final action on a tribal application for a project permit, approval, or jurisdictional determination within 45 days after receiving it (or within an additional 30 days if certain requirements are met). Any application not acted on by these deadlines shall be deemed approved.\n\n(Sec. 5) The bill decreases from 6% to 5% the portion of tribal transportation program funds that the BIA may use for administrative expenses.\n\n(Sec. 6) An Indian tribe participating in tribal self-governance, or in certain contracts or agreements under a tribal transportation program, may assume all federal responsibilities under NEPA if the tribe: (1) designates an officer to represent the tribe and assume the federal responsibilities, and (2) accepts federal court jurisdiction for enforcing the official's responsibilities.\n\n(Sec. 7) Interior shall report to Congress on the quality of tribal government transportation safety data collected by states and counties for transportation safety systems and the relevance of that data to improving the collection and sharing of data on motor vehicle crashes on or near Indian reservations or rural roads located in or around Alaska Native villages and within the boundaries of Alaska Native Regional Corporations. One purpose of the report shall be to develop data that Indian tribes can use to recover damages to tribal property caused by motorists.\n\nIn preparing this report Interior shall furnish Indian tribes with options and best practices for transition to a paperless transportation safety data reporting system meeting specified criteria.\n\n(Sec. 8) Interior shall also study and evaluate options for improving safety on:\n\n public roads on or near Indian reservations, or rural roads located in or around Alaska Native villages and within the boundaries of Alaska Native Regional Corporations. (Sec. 9) MAP-21 is amended to reauthorize through FY2021 both the tribal transportation program and a separate tribal transportation facility bridge program to:\n\n carry out any planning, design, engineering, preconstruction, construction, and inspection of new or replacement tribal transportation facility bridges; replace, rehabilitate, seismically retrofit, paint, apply calcium magnesium acetate, sodium acetate/formate, or other environmentally acceptable, minimally corrosive anti-icing and deicing composition; or implement any countermeasure for deficient tribal transportation facility bridges, including multiple-pipe culverts."
+  }, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "TIRES Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Tribal Infrastructure and Roads Enhancement and Safety Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "TIRES Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "Tribal Infrastructure and Roads Enhancement and Safety Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": false, 
+      "title": "TIRES Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": false, 
+      "title": "Tribal Infrastructure and Roads Enhancement and Safety Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to enhance tribal road safety, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "TIRES Act", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-12-16T09:57:49Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s1776.xml"
+}

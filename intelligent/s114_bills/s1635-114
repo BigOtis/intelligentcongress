@@ -1,0 +1,483 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-06-18", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-06-18", 
+      "action_code": "", 
+      "committees": [
+        "SSFR"
+      ], 
+      "references": [], 
+      "text": "Committee on Foreign Relations. Original measure reported to Senate by Senator Corker. Without written report.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-06-18", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "123", 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 123.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }, 
+    {
+      "acted_at": "2016-04-28", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S2577-2595", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Measure laid before Senate by unanimous consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-04-28", 
+      "action_code": "", 
+      "how": "by Unanimous Consent", 
+      "references": [
+        {
+          "reference": "CR S2578-2595", 
+          "type": "text"
+        }
+      ], 
+      "result": "pass", 
+      "status": "PASS_OVER:SENATE", 
+      "text": "Passed Senate with amendments by Unanimous Consent.", 
+      "type": "vote", 
+      "vote_type": "vote", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-04-29T12:10:29-04:00", 
+      "action_code": "H14000", 
+      "references": [], 
+      "text": "Received in the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-04-29", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-04-29T17:17:24-04:00", 
+      "action_code": "H15000", 
+      "references": [], 
+      "text": "Held at the desk.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-05-19", 
+      "action_code": "H11100", 
+      "committees": [
+        "HSFA"
+      ], 
+      "references": [], 
+      "text": "Referred to the House Committee on Foreign Affairs.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2016-05-26", 
+      "action_code": "", 
+      "committees": [
+        "HSFA"
+      ], 
+      "references": [], 
+      "text": "Committee Consideration and Mark-up Session Held.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-05-26", 
+      "action_code": "", 
+      "committees": [
+        "HSFA"
+      ], 
+      "references": [], 
+      "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Unanimous Consent.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2016-12-05T17:37:34-05:00", 
+      "action_code": "H30300", 
+      "references": [], 
+      "text": "Mr. Royce moved to suspend the rules and pass the bill, as amended.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-05T17:37:46-05:00", 
+      "action_code": "H30000", 
+      "references": [
+        {
+          "reference": "CR H7160-7175", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Considered under suspension of the rules.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-05T17:37:47-05:00", 
+      "action_code": "H8D000", 
+      "references": [], 
+      "text": "DEBATE - The House proceeded with forty minutes of debate on S. 1635.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-05T18:08:28-05:00", 
+      "action_code": "H37220", 
+      "references": [], 
+      "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-05T19:02:59-05:00", 
+      "action_code": "H30000", 
+      "references": [
+        {
+          "reference": "CR H7177-7178", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Considered as unfinished business.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-05T19:10:33-05:00", 
+      "action_code": "H37300", 
+      "how": "roll", 
+      "references": [
+        {
+          "reference": "CR H7160-7172", 
+          "type": "text"
+        }
+      ], 
+      "result": "pass", 
+      "roll": "603", 
+      "status": "PASS_BACK:HOUSE", 
+      "suspension": true, 
+      "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 374 - 16 (Roll no. 603).", 
+      "type": "vote", 
+      "vote_type": "vote2", 
+      "where": "h"
+    }, 
+    {
+      "acted_at": "2016-12-05T19:10:34-05:00", 
+      "action_code": "H38310", 
+      "references": [], 
+      "text": "Motion to reconsider laid on the table Agreed to without objection.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-06", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on House action received in Senate and at desk: House amendment to Senate bill.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7167", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Measure laid before Senate by unanimous consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "how": "by Unanimous Consent", 
+      "references": [], 
+      "result": "pass", 
+      "status": "PASSED:BILL", 
+      "text": "Senate agreed to the House amendment to S. 1635 by Unanimous Consent.", 
+      "type": "vote", 
+      "vote_type": "pingpong", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-12-12", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-14", 
+      "action_code": "E20000", 
+      "references": [], 
+      "text": "Presented to President.", 
+      "type": "topresident"
+    }, 
+    {
+      "acted_at": "2016-12-16", 
+      "action_code": "E30000", 
+      "references": [], 
+      "status": "ENACTED:SIGNED", 
+      "text": "Signed by President.", 
+      "type": "signed"
+    }, 
+    {
+      "acted_at": "2016-12-16", 
+      "action_code": "E40000", 
+      "congress": "114", 
+      "law": "public", 
+      "number": "323", 
+      "references": [], 
+      "text": "Became Public Law No: 114-323.", 
+      "type": "enacted"
+    }
+  ], 
+  "amendments": [
+    {
+      "amendment_id": "samdt3886-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "3886"
+    }
+  ], 
+  "bill_id": "s1635-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "markup", 
+        "referral"
+      ], 
+      "committee": "House Foreign Affairs", 
+      "committee_id": "HSFA"
+    }, 
+    {
+      "activity": [
+        "origin", 
+        "reporting"
+      ], 
+      "committee": "Senate Foreign Relations", 
+      "committee_id": "SSFR"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [], 
+  "enacted_as": {
+    "congress": "114", 
+    "law_type": "public", 
+    "number": "323"
+  }, 
+  "history": {
+    "active": true, 
+    "active_at": "2015-06-18", 
+    "awaiting_signature": false, 
+    "enacted": true, 
+    "enacted_at": "2016-12-16", 
+    "house_passage_result": "pass", 
+    "house_passage_result_at": "2016-12-05T19:10:33-05:00", 
+    "senate_passage_result": "pass", 
+    "senate_passage_result_at": "2016-12-10", 
+    "vetoed": false
+  }, 
+  "introduced_at": "2015-06-18", 
+  "number": "1635", 
+  "official_title": "An original bill to authorize the Department of State for fiscal year 2016, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [
+    {
+      "bill_id": "hr2922-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s868-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1300-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1527-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr3873-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }
+  ], 
+  "short_title": "Department of State Operations Authorization and Embassy Security Act, Fiscal Year 2016", 
+  "sponsor": {
+    "bioguide_id": "C001071", 
+    "district": null, 
+    "name": "Corker, Bob", 
+    "state": "TN", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "ENACTED:SIGNED", 
+  "status_at": "2016-12-16", 
+  "subjects": [
+    "Advisory bodies", 
+    "Afghanistan", 
+    "Africa", 
+    "Algeria", 
+    "Arab-Israeli relations", 
+    "Arms control and nonproliferation", 
+    "Asia", 
+    "Bahrain", 
+    "Broadcasting Board of Governors", 
+    "Burma", 
+    "Child safety and welfare", 
+    "China", 
+    "Computer security and identity theft", 
+    "Computers and information technology", 
+    "Congressional oversight", 
+    "Crime victims", 
+    "Cultural exchanges and relations", 
+    "Department of State", 
+    "Diplomacy, foreign officials, Americans abroad", 
+    "El Salvador", 
+    "Elections, voting, political campaign regulation", 
+    "Europe", 
+    "European Union", 
+    "Executive agency funding and structure", 
+    "Federal officials", 
+    "Foreign aid and international relief", 
+    "Foreign property", 
+    "Government employee pay, benefits, personnel management", 
+    "Government liability", 
+    "Government studies and investigations", 
+    "Guatemala", 
+    "Haiti", 
+    "Honduras", 
+    "Hong Kong", 
+    "Human rights", 
+    "Human trafficking", 
+    "India", 
+    "International affairs", 
+    "International exchange and broadcasting", 
+    "International law and treaties", 
+    "International organizations and cooperation", 
+    "Iran", 
+    "Iraq", 
+    "Israel", 
+    "Latin America", 
+    "Libya", 
+    "Licensing and registrations", 
+    "Marine and inland water transportation", 
+    "Mexico", 
+    "Middle East", 
+    "Military assistance, sales, and agreements", 
+    "Military education and training", 
+    "Minority employment", 
+    "Morocco", 
+    "Natural disasters", 
+    "North Korea", 
+    "Nuclear weapons", 
+    "Pakistan", 
+    "Palestinians", 
+    "Persian Gulf States", 
+    "Racial and ethnic relations", 
+    "Religion", 
+    "Russia", 
+    "Singapore", 
+    "South Korea", 
+    "Sovereignty, recognition, national governance and status", 
+    "Taiwan", 
+    "Terrorism", 
+    "Tunisia", 
+    "U.S. Agency for International Development (USAID)", 
+    "U.S. and foreign investments", 
+    "Ukraine", 
+    "United Nations", 
+    "Venezuela", 
+    "Visas and passports"
+  ], 
+  "subjects_top_term": "International affairs", 
+  "summary": {
+    "as": "Reported to Senate without amendment", 
+    "date": "2015-06-18T18:27:54Z", 
+    "text": "(This measure has not been amended since it was introduced. The summary has been expanded because action occurred on the measure.)\n\nDepartment of State Operations Authorization and Embassy Security Act, Fiscal Year 2016\n\nTITLE I--DEPARTMENT OF STATE AUTHORITIES AND ACTIVITIES\n\n Subtitle A--Basic Authorities and Activities\n\n(Sec. 101) This bill directs the Department of State (Department) to report to Congress regarding:\n\n costs incurred by the Department to provide American Spaces, cost breakdowns by each space and type of space, total fees collected for entry to, or the use of, American Spaces and related resources, and total usage rates for each space and type of space. (Sec. 102) The Department shall report to Congress regarding:\n\n the status of all ongoing investment treaty negotiations, a strategy to expand the investment treaty agenda, and an estimate of needed resources and anticipated staff. (Sec. 103) The Department shall:\n\n submit a required report to Congress annually through 2020 concerning conditions in Hong Kong of interest to the United States; and certify to Congress annually whether Hong Kong Special Administrative Region is sufficiently autonomous to justify different treatment for its citizens from the treatment accorded to other citizens of China in any new laws, agreements, treaties, or arrangements entered into between the United States and Hong Kong. (Certification shall not be required for new laws, agreements, or treaties that support human rights or democracy in the Hong Kong Special Administrative Region.) (Sec. 104) The President shall designate an existing federal officer as the Interagency Hostage Recovery Coordinator to coordinate efforts to secure the release of U.S. persons held hostage outside the United States by hostile groups or state sponsors of terrorism.\n\nNothing in this section shall be construed as authorizing the federal government to negotiate with a state sponsor of terrorism or a foreign terrorist organization or any other hostage-takers.\n\n(Sec. 105) The Department shall: (1) conduct a review of the United States-China Strategic and Economic Dialogue, and (2) submit a related report to Congress.\n\n(Sec. 106) The Department shall submit a report to Congress that: (1) details all known widespread or systematic civil or political rights violations against ethnic, racial, or religious minorities in Burma (Myanmar), including the Rohingya people; and (2) provides recommendations for holding perpetrators accountable for their actions.\n\n(Sec. 107) Funds are made available to the Bureau for Democracy, Human Rights, and Labor, to support efforts by American and European Jewish and other civil society organizations focusing on youth to combat anti-Semitism and other forms of religious, ethnic, or racial intolerance in Europe.\n\n(Sec. 108) The State Department Basic Authorities Act of 1956 is amended to authorize the Department to support, through grants, cooperative agreements, contracts, and public diplomacy, activities promoting the benefits of agricultural biotechnology, biofuels, science-based regulatory systems, and the application of such technologies for trade and development.\n\n(Sec. 109) The terms \"use\" and \"uses\" shall be given their plain meaning with regard to visa and passport offenses.\n\n(Sec. 110) The Foreign Relations Authorization Act, Fiscal Year 1979 is amended to authorize the Department to provide grants or enter into cooperative agreements for Department science and technology fellowship programs.\n\n(Sec. 111) The position of Assistant Secretary of State for Oceans and International Environmental and Scientific Affairs is renamed the Assistant Secretary of State for Oceans, Environment, and Science.\n\n(Sec. 112) The Department is authorized to provide for U.S. participation in the Information Sharing Centre in Singapore, as established by the Regional Cooperation Agreement on Combating Piracy and Armed Robbery Against Ships in Asia.\n\n(Sec. 113) The Foreign Assistance Act of 1961 is amended to: (1) eliminate the report describing the involvement of a foreign military or defense ministry civilian participant in education and training activities in a violation of internationally recognized human rights; and (2) revise reporting requirements concerning the importation of rough diamonds into the United States not controlled through the Kimberley Process Certification Scheme.\n\n (Sec. 114) It is the sense of Congress that:\n\n the alliance between the United States and Japan is a cornerstone of peace and stability in the Asia-Pacific region and around the world; Prime Minister Shiuzo Abe's 2015 visit to the United States and historic address to a Joint Session of Congress symbolized the importance of U.S.-Japan ties; the United States remains resolute in its commitments under the Treaty of Mutual Cooperation and Security to respond to any armed attack in the territories under Japan's administration; although the United States does not take a position on the ultimate sovereignty of the Senkaku Islands, the U.S. government acknowledges that they are under Japan's administration and opposes any unilateral actions to undermine such administration; the United States and Japan continue to work together on common security interests, including confronting the threat posed by the North Korea's nuclear and ballistic missile programs; the United States and Japan remain committed to ensuring maritime security and respect for international law, including freedom of navigation and overflight; and the United States and Japan oppose the use of coercion or force to change the status quo, including in the East and South China Seas. (Sec. 115) It is the sense of Congress that the United States should:\n\n expand defense cooperation with India, welcome India's role in providing security and stability in the Indo-Pacific region and beyond, support implementation of the United States-India Defense Framework Agreement, and support the India Defense Trade and Technology Initiative. (Sec. 116) It is the sense of Congress that:\n\n the U.S.-Republic of Korea alliance has served as an anchor for security and prosperity on the Korean Peninsula, in the Asia-Pacific region, and around the world; the United States and the Republic of Korea continue to broaden their alliance by strengthening the combined defense posture on the Korean Peninsula, enhancing mutual security based on the Republic of Korea-United States Mutual Defense Treaty, and promoting regional and global security cooperation in the 21st century; the United States and the Republic of Korea share concerns that the nuclear, cyber, and ballistic missiles programs of North Korea and its repeated provocations threaten peace and stability on the Korean Peninsula and Northeast Asia and remain committed to cooperating on the full range of issues related to North Korea; the Republic of Korea has made progress in enhancing future war fighting and interoperability capabilities by taking steps toward procuring Patriot Advanced Capability missiles, F-35 Joint Strike Fighter Aircraft, and RQ-4 Global Hawk Surveillance Aircraft; and the United States and the Republic of Korea share the future interests of both nations in securing peace and stability on the Korean Peninsula and in Northeast Asia. (Sec. 117) It is the sense of the Congress that:\n\n U.S. policy toward Taiwan is based upon the Taiwan Relations Act and the Six Assurances given by President Ronald Reagan in 1982, provision of defensive weapons to Taiwan should continue, and enhanced trade relations with Taiwan should be pursued. (Sec. 118) The Department report to Congress:\n\n an assessment of work carried out by the United States, in cooperation with the other member states of the Organization of American States and countries of the European Union, to ensure the peaceful resolution of the current political situation in Venezuela; a list of government and security officials in Venezuela who are responsible for, or complicit in, the use of force against antigovernment protests and who have had their U.S. financial assets frozen or been placed on a U.S. visa ban; and an assessment of U.S. support for the development of democratic political processes and independent civil society in Venezuela. (Sec. 119) The Department shall develop and submit to Congress a Middle East strategy in the event of a comprehensive nuclear agreement with Iran which shall include efforts to: (1) counter Iranian-sponsored terrorism in the Middle East, (2) reassure U.S. allies and partners in Middle East, and (3) address the potential for a conventional or nuclear arms race in the Middle East.\n\n(Sec. 120) The Department shall produce a comprehensive strategy relating to U.S. international cyberspace policy which shall include:\n\n a review of activities undertaken to support the goal of the President's International Strategy for Cyberspace; a review of alternative concepts with regard to international norms in cyberspace offered by other nations, including China, Russia, Brazil, and India; a description of cyberspace threats to U.S. national security from other nations, state-sponsored actors, and private actors to federal and private sector infrastructure, U.S. intellectual property, and U.S. citizens; a review of deterrent policy tools available to the President; and a review of resources required by the Department, including the Office of the Coordinator for Cyber Issues, to build responsible norms of international cyber behavior. (Sec. 121) The Immigration and Nationality Act is amended to declare that, if an immigrant visa was issued on or after March 27, 2013, for a child who has been lawfully adopted, or who is coming to the United States to be adopted by a U.S. citizen, any statutory immigrant visa fees relating to renewal or replacement of such visa may be waived or refunded if:\n\n the child was unable to use the original immigrant visa during the period of its validity as a direct result of extraordinary circumstances, including the denial of an exit permit; and such inability was attributable to factors beyond the control of the adopting parent or parents. (Sec. 122) It is the sense of Congress that ensuring justice for U.S. victims of Iranian acts of terrorism who hold related legal judgments against Iran is of paramount importance and should be expeditiously addressed.\n\nThe American Hostages in Iran Compensation Fund is established in the Treasury.\n\n A payment recipient may not maintain an action against Iran in any federal or state court for claims relating to the hostage events.\n\nExisting claims against Iran for those events are waived and forever released upon payment to all designated recipients.\n\n(Sec. 123) Congress: (1) supports individuals and organizations working to encourage cooperation between Israeli Jews and Palestinians, (2) condemns anti-Israel and anti-Semitic incitement in the Palestinian Authority (PA), and (3) urges President Abbas and PA officials to discontinue all official incitement that runs contrary to ending decades of confrontation.\n\n(Sec. 124) Congress:\n\n supports the sovereignty, independence, and territorial integrity of post-Soviet countries within their internationally recognized borders; is concerned over increasingly aggressive actions by the Russian Federation; encourages the President to enhance nondefense cooperation and diplomatic engagement with post-Soviet countries; condemns the subversive and destabilizing activities undertaken by the Russian Federation within post-Soviet countries; encourages enhanced cooperation between the United States and the European Union (EU) to promote greater Euro-Atlantic integration; urges U.S.-EU cooperation to maintain sanctions against the Russian Federation until the government of Russia has fully implemented the Minsk agreements and demonstrated respect for Ukraine's territorial sovereignty; calls on EU member states to extend the current sanctions regime against the Russian Federation; and urges the consideration of additional sanctions if the Russian Federation continues to engage in subversive and destabilizing activities within post-Soviet countries. (Sec. 125) It is the sense of Congress that a successful strategy must be implemented to counter the Russian Federation's propaganda war against the United States and our allies.\n\n(Sec. 126) The Department shall submit to Congress a detailed list of all: (1) pending Letters of Request for Foreign Military Sales to Ukraine, and (2) and export license applications, including requests for marketing licenses, for the sale of defense articles and defense services to Ukraine.\n\nSubtitle B--Additional Matters\n\n(Sec. 131) The President is authorized to establish an Interagency Atrocities Prevention Board to coordinate an interagency approach to preventing and responding to mass atrocities.\n\nThis section shall cease to be effective on June 30, 2017.\n\n(Sec. 132) The Department shall submit a comprehensive assessment to Congress regarding U.S. engagement in the Indo-Pacific.\n\n(Sec. 133) The Department is authorized to enter into a bilateral joint action plan with the EU to combat prejudice and discrimination.\n\n(Sec. 134) The Department shall submit an assessment to Congress of the current external debt environment for developing countries and identify near-term risks to debt sustainability.\n\n(Sec. 135) The Department shall develop or update (biennially thereafter for six years) a U.S. global strategy to prevent and respond to violence against women and girls, which shall be transmitted to Congress and made available on the Internet.\n\nThe Department shall: (1) identify no less than four eligible low-income and lower-middle income countries with significant levels of violence against women and girls that have the capacity to implement gender-based violence prevention and response activities, (2) in each identified country develop individual country plans to address such violence, and (3) submit an annual report to Congress.\n\n(Sec. 136) The Department shall submit to Congress and publish on its website a country report on corruption practices which should include identification of:\n\n individuals and associations that comprise corruption networks in the country; state functions that have been captured by corrupt networks; and identification of key economic activities which are dominated by members of the corrupt network, and other revenue streams that enrich such members. (Sec. 137) The Department shall conduct a quadrennial diplomacy and development review which shall include: (1) recommendations for long-term U.S. diplomacy and development policy; and (2) guidance on related programs, assets, budget, policies, and authorities of the Department and the U.S. Agency for International Development.\n\nNothing in this section may be construed to authorize any additional appropriations for the purposes and initiatives under this section.\n\n(Sec. 138) The Department shall submit an annual report to Congress that includes: (1) the number of cases of enforced disappearances in Mexico, Guatemala, Honduras, and El Salvador; (2) an assessment of the causes and the responsible individuals and groups; and (3) the official government response to such disappeared persons.\n\n(Sec. 139) The Department shall submit a report to Congress describing the government of Bahrain's implementation of the recommendations in the 2011 Report of the Bahrain Independent Commission of Inquiry, including an assessment of the impact of the Report's findings for the U.S. security posture in the Arab Gulf and for U.S. Central Command's area of responsibility.\n\n(Sec. 140) The Assessing Progress in Haiti Act of 2014 is amended to direct the Department to report to Congress annually through December 31, 2022, on the status of post-earthquake recovery and development efforts in Haiti.\n\nSuch report shall include: (1) a determination of whether recent Haitian elections are free and responsive to the people of Haiti, and (2) a description of any attempts to disqualify candidates for political reasons.\n\n(Sec. 141) It is the sense of Congress that:\n\n North Korea represents a serious threat to international peace and to the national security of the United States and its allies in East Asia, and grossly violates the human rights of its own people; the Department and the Department of the Treasury should impose additional sanctions against North Korea, including targeting its financial assets, specific designations relating to human rights abuses, and a redesignation of North Korea as a state sponsor of terror; and the President should not resume negotiations until North Korea adheres to its denuclearization commitments, commits to halting its ballistic missile and proliferation activities, ceases military provocations, and improves its human rights record. TITLE II--ORGANIZATION AND PERSONNEL OF THE DEPARTMENT OF STATE\n\nSubtitle A--Organizational Matters\n\n(Sec. 201) A chief of mission, after receiving rightsizing recommendations pursuant to a review conducted by the Office of Management, Policy, Rightsizing, and Innovation relating to staffing levels at U.S. overseas posts, shall submit a response to the Office that describes: (1) rightsizing recommendations that are accepted and a schedule for their implementation, and (2) rejected recommendations and a justification for such rejections.\n\nThe Department shall submit to Congress: (1) an annual report describing the status of all rightsizing recommendations and responses from the preceding five years, and (2) a supplemental report on regional bureau staffing.\n\n(Sec. 202) An existing Deputy Assistant Secretary within each regional bureau shall be tasked with the responsibility for economic matters and interests, including integration of foreign economic policy priorities.\n\n(Sec. 203) The Department shall: (1) conduct a review of the jurisdictional responsibility of the Bureau of African Affairs and that of the Bureau of Near Eastern Affairs relating to the North African countries of Morocco, Algeria, Tunisia, and Libya; and (2) submit a related report to Congress.\n\n(Sec. 204) The Department shall report to Congress on Department special envoys, representatives, advisors, and coordinators.\n\n(Sec. 205) The Foreign Service Act of 1980 is amended to require the Department to ensure the meaningful inclusion of women among the personnel responsible for, or deploying to, countries or regions considered to be at risk of undergoing, or emerging from violent conflict, and that all such personnel obtain training in:\n\n conflict prevention, mitigation, and resolution; protecting civilians from violence, exploitation, and trafficking in persons; and international human rights law and international humanitarian law. (Sec. 206) The Department shall regularly consult with the National Security Agency and any other appropriate departments or agencies regarding the security of U.S. government and nongovernment information technology systems and networks owned, operated, or utilized by the Department, including sensitive or classified information systems.\n\nThe Department shall submit a report to Congress every 180 days describing: (1) all known or suspected penetrations or compromises of such systems or networks facilitating the use of classified information, and (2) all known or suspected significant penetrations or compromises of any other such systems and networks.\n\n(Sec. 207) The Government Accountability Office (GAO) shall submit a report to Congress that assesses the cost-effectiveness and performance of the International Cooperative Administrative Support Services system.\n\n(Sec. 208) The Homeland Security Act of 2002 is amended to direct the Department to convene an advisory committee to the interagency working group to prevent international parental child abduction.\n\n(Sec. 209) The Department shall: (1) conduct research and evaluation of its public diplomacy programs and activities, including through use of audience research, digital analytics, and impact evaluations; and (2) make such findings available to Congress.\n\n A Director of Research and Evaluation shall be appointed in the Office of Policy, Planning, and Resources for the Under Secretary for Public Diplomacy and Public Affairs.\n\nIt is the sense of Congress that the Department should allocate for research and evaluation of public diplomacy activities and programs 3%-5% of: (1) educational and cultural exchange program funds, and (2) diplomatic and consular program funds.\n\nThe Advisory Commission on Public Diplomacy shall establish a Subcommittee for Research and Evaluation to monitor and advise on the research and evaluation activities of the Department and the Broadcasting Board of Governors.\n\nThe Foreign Affairs Reform and Restructuring Act of 1998 is amended to extend The United States Advisory Commission on Public Diplomacy until October 1, 2020.\n\n(Sec. 210) The Department shall strengthen the institutional capacity of the Bureau of African Affairs to oversee programs and engage in strategic planning by:\n\n establishing an office within the Bureau that is distinct from the regional affairs office specifically charged with overseeing strategy development and program implementation related to security assistance, facilitating long-term planning, and developing a plan to rightsize the Bureau. Nothing in this section may be construed to authorize the appropriation of additional amounts to carry out this section.\n\nSubtitle B--Personnel Matters\n\n(Sec. 211) The Department shall commission an independent assessment of Foreign Service Officer compensation, and submit a related report to Congress.\n\n(Sec. 212) The Foreign Service Act of 1980 is amended to repeal the certification requirement for Senior Foreign Service members.\n\n(Sec. 213) The maximum accrual of compensatory time off for travel status away from the employee's official duty station is set at 104 hours during any leave year.\n\n(Sec. 214) The President shall make the report regarding the competence of each nomination for chief of mission available to the public, including by posting on the Department's website.\n\n(Sec. 215) The Department shall:\n\n establish a right and process for employees to appeal any assignment restriction or preclusion; and ensure that a member of the Service is not assigned to, or restricted from, a position at a post in a particular geographic area, or domestically in a position working on issues relating to a particular geographic area, exclusively on the basis of the member's race, ethnicity, or religion. (Sec. 216) The Department is authorized to suspend a Foreign Service member without pay when: (1) the member's security clearance is suspended, or (2) reasonable cause exists to believe that the person has committed a crime for which a sentence of imprisonment may be imposed.\n\nSuch person is entitled to: (1) written notice stating the specific reasons for the proposed suspension; (2) reasonable time to respond orally and in writing; (3) representation; (4) a final written decision, including the specific reasons for such decision; and (5) file a grievance.\n\n(Sec. 217) The Department shall establish curricula at the Foreign Services Institute to develop the economic policy expertise and skill sets of Foreign Service officers, including through distance-learning courses in commercial, economic, and business affairs.\n\n(Sec. 218) The Department shall report to Congress on efforts to promote equal opportunity for all American employees in direct hire and personal service contractors status, particularly Foreign Service employees.\n\n(Sec. 219) The Department must increase the number of fellows selected for the Charles B. Rangel International Affairs Program, the Thomas R. Pickering Foreign Affairs Fellowship Program, and the Donald M. Payne International Development Fellowship Program.\n\nUndergraduate and graduate components of the Donald M. Payne International Development Fellowship Program are authorized to conduct outreach to attract outstanding students who represent diverse ethnic and socioeconomic backgrounds with an interest in pursuing a Foreign Service career.\n\n(Sec. 220) The Department should:\n\n review past programs designed to increase minority representation; and provide oversight to the employment, retention, and promotion of underrepresented groups to promote a diverse ethnic representation among mid- and senior-level career professionals through programs such as the International Career Advancement Program, and Seminar XXI at the Massachusetts Institute of Technology's Center for International Studies. (Sec. 221) The Department shall: (1) conduct a review of the jurisdictional responsibilities of the Special Representative to Afghanistan and Pakistan and the Bureau of South and Central Asian Affairs, and (2) submit a related report to Congress.\n\n(Sec. 222) The Trafficking Victims Protection Act of 2000 is amended to require the Department, not later than 30 days before the anticipated submission of each annual tracking elimination compliance report, to brief Congress concerning countries that will be upgraded to a higher tier or downgraded to a lower tier.\n\n(Sec. 223) The Department shall develop a curriculum for Foreign Service officers that includes training on:\n\n the scope and strategic value of international religious freedom; how violations of international religious freedom harm U.S. interests, and how the advancement of such freedom can advance those interests; and the relevance of international religious freedom to U.S. defense, diplomacy, development, and public affairs efforts to combat violent extremism. The George P. Shultz National Foreign Affairs Training Center shall use such curriculum in training Foreign Service officers.\n\nTITLE III--INTERNATIONAL ORGANIZATIONS\n\nSubtitle A--United States Contributions to International Organizations\n\n(Secs. 301/303) The Department shall annually submit a report to Congress describing:\n\n activities at the United Nations (U.N.) and its subagencies that can be construed to exhibit an anti-Semitic bias, the use of U.N. resources to promote anti-Semitic or anti-Israel rhetoric or propaganda, and U.S. actions taken to address such activities. The United Nations Participation Act of 1945 is amended to include in the President's annual U.N. report to Congress a description of of all U.S. assessed and voluntary contributions to the U.N. and its affiliated agencies and related bodies: (1) during the preceding fiscal year, (2) estimated for the fiscal year in which the report is submitted, and (3) requested in the President's budget for the following fiscal year.\n\nSuch report shall also include an accounting of U.S. peacekeeping assessments and contributions for U.N. peacekeeping operations.\n\nThe Office of Management and Budget (OPM) shall make such reports publicly available.\n\n(Sec. 302) The Department's annual report to Congress on U.S. financial assistance is enlarged to include U.S. contributions to all international organizations and not just to those in which the United States is a member.\n\nSuch report shall include:\n\n the amount of such contributions that were assessed by an international organization and the amount of such contributions that were voluntary; and the ratio of U.S. contributions to total contributions received for the U.N. and its agencies, peacekeeping, inter-American organizations, regional organizations, and other international organizations. (Sec. 304) Each time the U.N. General Assembly modifies the assessment levels for peacekeeping operations the Secretary shall submit a report to Congress describing: (1) the change, by amount and percentage, of the peacekeeping assessment charged to each member state; and (2) how the economic and strategic interests of each of the U.N. Security Council permanent members is served by each peacekeeping mission currently in force.\n\nSubtitle B--Accountability at International Organizations\n\n(Sec. 311) Prior to a vote on a resolution approving a new, or reauthorizing an existing, peacekeeping mission under the auspices of any multilateral organization in which the United States participates, the Department shall submit a related to Congress that includes:\n\n a description of the measures taken and planned to be taken by the organization to prevent and hold accountable employees, contractors, or members of the mission forces from engaging in acts of trafficking in persons, exploitation of victims of trafficking, or sexual exploitation or abuse; an assessment of such measures' effectiveness; and an accounting and assessment of all cases in which the organization has investigated such allegations. (Sec. 312) The Foreign Assistance Act of 1961 is amended to include in the Department's human rights report to the Speaker of the House and to the Senate Foreign Relations Committee, for each country that contributes personnel to U.N. peacekeeping missions, a description of:\n\n allegations of such personnel engaging in acts of trafficking in persons, exploitation of victims of trafficking, or sexual exploitation and abuse while participating in such a peacekeeping mission; repatriations of personnel resulting from such an allegation, and resulting actions taken by the country; and the extent to which such actions have been communicated by such country to the U.N. (Sec. 313) The Department shall submit a report to Congress that includes:\n\n a comprehensive evaluation and prioritization of current U.N. peacekeeping missions; plans for ending any mission that has substantially met, or will not be able to meet, its objectives; and a plan for reviewing the status of open-ended mandates for the United Nations Interim Administration Mission in Kosovo, the United Nations Truce Supervision Organization, and the United Nations Military Observer Group in India and Pakistan. The President shall ensure that no new peacekeeping mission is approved by the U.N. without a periodic mandate renewal.\n\nU.S. funding shall not be provided for any such mission without a periodic mandate renewal.\n\nSubtitle C--Personnel Matters\n\n(Sec. 321) The Foreign Relations Authorization Act, Fiscal Years 1992 and 1993 is amended to require that the Department's report to Congress concerning U.S. citizen staffing at international organizations includes an assessment of U.S. representation among professional and senior-level positions at the U.N. and its specialized agencies.\n\n(Sec. 322) The President shall use U.S. influence at the U.N. to establish procedures to determine comparable positions to those of officials at U.N. headquarters and limit salary increases.\n\nTITLE IV--CONSULAR AUTHORITIES\n\n(Sec. 401) The Immigration and Nationality Act is amended to eliminate theexception to the visa prohibition for certain child abductors or persons aiding abductors.\n\n(Sec. 402) The following nonimmigrant visa categories are presumed to have immigrant intent: H-visa (specialty occupations, with an exception), L-visa (intra-company transferee), and V-visa (spouses and minor children of U.S. lawful permanent residents).\n\n(Sec. 403) Visa information sharing with foreign government provisions are revised, including permitting sharing of specified alien data if the Department determines that it is in the national interest that a foreign government be provided with such information.\n\nTITLE V--EMBASSY SECURITY\n\nSubtitle A--Allocation of Authorized Security Appropriations\n\n(Sec. 501) Funds made available in FY2016 for worldwide security protection shall be allocated for: (1) immediate threat mitigation support at high threat, high risk facilities; (2) immediate threat mitigation support at other facilities; and (3) high vulnerability locations.\n\n(Sec. 502) Funds made available in FY2016 for embassy security, construction and maintenance shall be allocated in the prioritized order of: (1) immediate threat mitigation projects at high threat, high risk facilities; (2) other security upgrades at such facilities; (3) all other immediate threat mitigation projects; and (4) security upgrades to all other facilities or new construction for facilities determined to be high threat, high risk.\n\nThe Department shall submit a related report to Congress.\n\nSubtitle B--Contracting and Other Matters\n\n(Sec. 511) The Foreign Relations Authorization Act, Fiscal Years 1990 and 1991 is amended regarding certain local guard contracts for a Foreign Service building to authorize the Department to award contracts on the basis of best value (as determined by a cost-technical trade off analysis), especially for high threat, high risk posts.\n\n(Sec. 512) The Diplomatic Security Act is amended to provide that unsatisfactory leadership by a senior official regarding a security incident involving loss of life, serious injury, or significant property destruction at or related to a U.S. government mission abroad may be grounds for disciplinary action.\n\n(Sec. 513) Nothing in this Act or any other provision of law shall be construed to prevent the Department from taking personnel action against any Department employee or official who has breached his or her duty or has engaged in misconduct or unsatisfactorily performed such duties in a manner that has significantly contributed to the serious injury, loss of life, or significant destruction of property, or a serious breach of security.\n\n(Sec. 514) The State Department Basic Authorities Act of 1956 is amended to authorize the Department to provide physical security enhancements at overseas educational facilities established for the children of U.S. government employees.\n\nSubtitle C--Marine Corps Security Guard Program\n\n(Sec. 521) The Carl Levin and Howard P. \"Buck\" McKeon National Defense Authorization Act for Fiscal Year 2015 is amended to require additional reports on the expansion and enhancement of the Marine Corps Security Guard program.\n\nSubtitle D--Defending High Threat, High Risk Posts\n\n(Sec. 531) The Department is directed to report to Congress annually regarding high risk, high threat overseas posts.\n\n(Sec. 532) The Department shall submit a report to Congress assessing the counterintelligence threat to U.S. diplomatic facilities in Priority 1 Counterintelligence Threat Nations (countries so designated by the October 2012 National Intelligence Priorities Framework).\n\n(Sec. 533) The Omnibus Diplomatic Security and Antiterrorism Act of 1986 is amended to require that the Deputy Assistant Secretary of State for High Threat, High Risk Posts have one or more of the following qualifications:\n\n service during the last six years at one or more high threat, high risk posts; previous service as the office director or deputy director at the Department's Office of Mobile Security Deployments, Office of Special Programs and Coordination, Office of Overseas Protective Operations, Office of Physical Security Programs, or Office of Intelligence and Threat Analysis; previous service as the Regional Security Officer at two or more overseas posts; or other similar government or private sector experience. (Sec. 534) Upon each update of the Security Environment Threat List the Assistant Secretary of State for Diplomatic Security shall provide related classified briefings to Congress.\n\n(Sec. 535) GAO shall report to Congress on the Department's progress in implementing the recommendations of the Benghazi Accountability Review Board.\n\n(Sec. 536) OPM and the Department shall provide Congress with all documents and materials related to analysis and construction of the Foreign Affairs Security Training Center at Fort Pickett, Virginia, including any alternative facilities.\n\n(Sec. 537) The Diplomatic Security Act is amended to urge that diplomatic security personnel assigned permanently to, or who are serving in, long-term temporary duty status at a high threat, high risk post receive post-appropriate spoken and reading language training.\n\nSubtitle E--Accountability Review Boards\n\n(Sec. 541) The Department is required to give Congress copies of any Board reports.\n\n(Sec. 542) The Omnibus Diplomatic Security and Antiterrorism Act is amended to revise Board staff requirements.\n\nTITLE VI--MANAGEMENT AND ACCOUNTABILITY\n\nImproving Department of State Oversight Act of 2015\n\n(Sec. 602) Competitive status for appointment to a position in the competitive service for which an employee is qualified is granted to any employee of the Special Inspector General for Iraq Reconstruction (SIGRI) who was not terminated for cause, and who completes at least 12 months of service at any time before the termination of the SIGRI on October 5, 2013.\n\n(Sec. 603) The Department shall certify to Congress that it has made reasonable efforts to ensure the integrity and independence of the Office of the Inspector General Information Technology systems.\n\n(Sec. 604) Each Department entity under the Foreign Service Act of 1980 shall report within five business days to the Inspector General (IG) any allegations of:\n\n program waste, fraud, or abuse; criminal or serious misconduct on the part of a Department employee at the FS-1, GS-15, GM-15 level or higher; criminal misconduct on the part of any Department employee; and serious, noncriminal misconduct on the part of any individual who is authorized to carry a weapon, make arrests, or conduct searches (such as conduct that would constitute perjury or material dishonesty, warrant suspension as discipline for a first offense, or result in loss of law enforcement authority). No Department entity with concurrent jurisdiction over such matters may initiate an investigation without first reporting the allegations to the IG.\n\nA Department entity that initiates an investigation of such a matter must fully cooperate with the IG, unless the IG authorizes an exception.\n\n(Sec. 605) The Department shall report to Congress regarding the requirement that the IG and the Broadcasting Board of Governors inspect and audit, at least every five years, the administration of activities and operations of each Foreign Service post and each bureau and other operating unit of the Department.\n\nSuch report shall assess the advisability and feasibility of implementing a multi-tier system for inspecting Foreign Service posts based on risk, including security risk."
+  }, 
+  "titles": [
+    {
+      "as": "enacted", 
+      "is_for_portion": false, 
+      "title": "Department of State Authorities Act, Fiscal Year 2017", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Department of State Operations Authorization and Embassy Security Act, Fiscal Year 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": true, 
+      "title": "Improving Department of State Oversight Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "Department of State Operations Authorization and Embassy Security Act, Fiscal Year 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": true, 
+      "title": "Improving Department of State Oversight Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": false, 
+      "title": "Department of State Operations Authorization and Embassy Security Act, Fiscal Year 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": true, 
+      "title": "Improving Department of State Oversight Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "An original bill to authorize the Department of State for fiscal year 2016, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Department of State Authorities Act, Fiscal Year 2017", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2017-01-11T20:17:53Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s1635.xml"
+}
