@@ -1,0 +1,129 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-09-21", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-09-21", 
+      "action_code": "", 
+      "committees": [
+        "SSCM"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.", 
+      "type": "referral"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s3379-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "Senate Commerce, Science, and Transportation", 
+      "committee_id": "SSCM"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "B001277", 
+      "district": null, 
+      "name": "Blumenthal, Richard", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-09-22", 
+      "state": "CT", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "B001288", 
+      "district": null, 
+      "name": "Booker, Cory A.", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-21", 
+      "state": "NJ", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "F000463", 
+      "district": null, 
+      "name": "Fischer, Deb", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-21", 
+      "state": "NE", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "N000032", 
+      "district": null, 
+      "name": "Nelson, Bill", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-21", 
+      "state": "FL", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": false, 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "vetoed": false
+  }, 
+  "introduced_at": "2016-09-21", 
+  "number": "3379", 
+  "official_title": "A bill to improve surface transportation and maritime security.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "Surface Transportation and Maritime Security Act", 
+  "sponsor": {
+    "bioguide_id": "T000250", 
+    "district": null, 
+    "name": "Thune, John", 
+    "state": "SD", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "REFERRED", 
+  "status_at": "2016-09-21", 
+  "subjects": [
+    "Transportation and public works"
+  ], 
+  "subjects_top_term": "Transportation and public works", 
+  "summary": null, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Surface Transportation and Maritime Security Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to improve surface transportation and maritime security.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Surface Transportation and Maritime Security Act", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-11-03T00:01:33Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s3379.xml"
+}

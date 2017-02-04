@@ -1,0 +1,224 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-05-21", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-05-21", 
+      "action_code": "", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Indian Affairs.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2015-10-21", 
+      "action_code": "", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Committee on Indian Affairs. Ordered to be reported without amendment favorably.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2016-03-09", 
+      "action_code": "", 
+      "committee": "Indian Affairs", 
+      "committees": [
+        "SLIA"
+      ], 
+      "references": [], 
+      "text": "Committee on Indian Affairs. Reported by Senator Barrasso without amendment. With written report No. 114-225.", 
+      "type": "reported"
+    }, 
+    {
+      "acted_at": "2016-03-09", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "385", 
+      "references": [], 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 385.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }, 
+    {
+      "acted_at": "2016-07-14", 
+      "action_code": "", 
+      "how": "by Voice Vote", 
+      "references": [
+        {
+          "reference": "CR S5187-5190", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S5187-5190", 
+          "type": "text as passed Senate"
+        }
+      ], 
+      "result": "pass", 
+      "status": "PASS_OVER:SENATE", 
+      "text": "Passed Senate without amendment by Voice Vote.", 
+      "type": "vote", 
+      "vote_type": "vote", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-07-15", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-07-18T14:35:24-04:00", 
+      "action_code": "H14000", 
+      "references": [], 
+      "text": "Received in the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-07-18T16:42:13-04:00", 
+      "action_code": "H15000", 
+      "references": [], 
+      "text": "Held at the desk.", 
+      "type": "action"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s1443-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [
+    "S. Rept. 114-225"
+  ], 
+  "committees": [
+    {
+      "activity": [
+        "reporting", 
+        "markup", 
+        "referral"
+      ], 
+      "committee": "Senate Indian Affairs", 
+      "committee_id": "SLIA"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "C000880", 
+      "district": null, 
+      "name": "Crapo, Mike", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2015-06-16", 
+      "state": "ID", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "S001198", 
+      "district": null, 
+      "name": "Sullivan, Dan", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2015-05-21", 
+      "state": "AK", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": true, 
+    "active_at": "2016-03-09", 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "senate_passage_result": "pass", 
+    "senate_passage_result_at": "2016-07-14", 
+    "vetoed": false
+  }, 
+  "introduced_at": "2015-05-21", 
+  "number": "1443", 
+  "official_title": "A bill to amend the Indian Employment, Training and Related Services Demonstration Act of 1992 to facilitate the ability of Indian tribes to integrate the employment, training, and related services from diverse Federal sources, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [
+    {
+      "bill_id": "hr329-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }
+  ], 
+  "short_title": "Indian Employment, Training and Related Services Consolidation Act of 2015", 
+  "sponsor": {
+    "bioguide_id": "M001153", 
+    "district": null, 
+    "name": "Murkowski, Lisa", 
+    "state": "AK", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "PASS_OVER:SENATE", 
+  "status_at": "2016-07-14", 
+  "subjects": [
+    "Administrative remedies", 
+    "Civil actions and liability", 
+    "Department of the Interior", 
+    "Economic development", 
+    "Employment and training programs", 
+    "Evidence and witnesses", 
+    "Federal-Indian relations", 
+    "Indian claims", 
+    "Indian social and development programs", 
+    "Minority employment", 
+    "Native Americans", 
+    "State and local government operations"
+  ], 
+  "subjects_top_term": "Native Americans", 
+  "summary": {
+    "as": "Introduced in Senate", 
+    "date": "2015-05-21T04:00:00Z", 
+    "text": "Indian Employment, Training and Related Services Consolidation Act of 2015 \n\n Amends the Indian Employment, Training and Related Services Demonstration Act of 1992 to make revisions to the program that provides for the integration of employment, training, and related services programs from federal funds.\n\nRevises the types of programs that may be integrated pursuant to an approved integration plan. Sets forth requirements regarding the granting or denial of an Indian tribe's request to waive any applicable statutory, regulatory, or administrative requirements or waive federal agency policies or procedures necessary to efficiently implement the plan.\n\nPrescribes for certain hearing and appeal rights for an Indian tribe if the Department of the Interior denies its plan. Revises the authority of tribes to use funds available for a plan to place participants in training positions with employers.\n\n Revises the responsibilities of the Director of the Bureau of Indian Affairs (BIA) in carrying out this Act to include:\n\n the distribution of the funds to the respective Indian tribes by no later than 45 days after the receipt of the funds from the appropriate federal department or agency, the performance of the activities relating to agency waivers, and the establishment of an interagency dispute resolution process. Prohibits the BIA from developing a reporting format that requires a participating tribe to report on the expenditure of funds transferred to the tribe under the Act.\n\nTreats any funds transferred to an Indian tribe under the Act as non-federal funds for purposes of meeting matching requirements under any other federal law. Applies civil liability limitations to plans approved under the Act."
+  }, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Indian Employment, Training and Related Services Consolidation Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "Indian Employment, Training and Related Services Consolidation Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": false, 
+      "title": "Indian Employment, Training and Related Services Consolidation Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to amend the Indian Employment, Training and Related Services Demonstration Act of 1992 to facilitate the ability of Indian tribes to integrate the employment, training, and related services from diverse Federal sources, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Indian Employment, Training and Related Services Consolidation Act of 2015", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-11-28T09:52:36Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s1443.xml"
+}

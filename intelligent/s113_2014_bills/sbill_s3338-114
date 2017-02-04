@@ -1,0 +1,99 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-09-15", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-09-15", 
+      "action_code": "", 
+      "committees": [
+        "SSFI"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Finance.", 
+      "type": "referral"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s3338-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "Senate Finance", 
+      "committee_id": "SSFI"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "B001267", 
+      "district": null, 
+      "name": "Bennet, Michael F.", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "CO", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": false, 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "vetoed": false
+  }, 
+  "introduced_at": "2016-09-15", 
+  "number": "3338", 
+  "official_title": "A bill to amend the Internal Revenue Code of 1986 to encourage small businesses to enroll their employees in retirement savings options, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "Small Business Employee Retirement Savings Act of 2016", 
+  "sponsor": {
+    "bioguide_id": "B001135", 
+    "district": null, 
+    "name": "Burr, Richard", 
+    "state": "NC", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "REFERRED", 
+  "status_at": "2016-09-15", 
+  "subjects": [
+    "Taxation"
+  ], 
+  "subjects_top_term": "Taxation", 
+  "summary": null, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Small Business Employee Retirement Savings Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to amend the Internal Revenue Code of 1986 to encourage small businesses to enroll their employees in retirement savings options, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Small Business Employee Retirement Savings Act of 2016", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-11-03T00:01:30Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s3338.xml"
+}

@@ -1,0 +1,188 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-02-10", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-02-10", 
+      "action_code": "", 
+      "committees": [
+        "SSVA"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Veterans' Affairs.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2015-06-03", 
+      "action_code": "", 
+      "committee": "Committee on Veterans' Affairs", 
+      "committees": [
+        "SSVA"
+      ], 
+      "references": [], 
+      "text": "Committee on Veterans' Affairs. Hearings held.", 
+      "type": "hearings"
+    }, 
+    {
+      "acted_at": "2015-12-09", 
+      "action_code": "", 
+      "committees": [
+        "SSVA"
+      ], 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Committee on Veterans' Affairs. Ordered to be reported with an amendment in the nature of a substitute favorably.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2016-12-07", 
+      "action_code": "", 
+      "committee": "Veterans' Affairs", 
+      "committees": [
+        "SSVA"
+      ], 
+      "references": [], 
+      "text": "Committee on Veterans' Affairs. Reported by Senator Isakson with an amendment in the nature of a substitute and an amendment to the title. With written report No. 114-395. Supplemental views filed.", 
+      "type": "reported"
+    }, 
+    {
+      "acted_at": "2016-12-07", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "716", 
+      "references": [], 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 716.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s425-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [
+    "S. Rept. 114-395"
+  ], 
+  "committees": [
+    {
+      "activity": [
+        "reporting", 
+        "markup", 
+        "hearings", 
+        "referral"
+      ], 
+      "committee": "Senate Veterans' Affairs", 
+      "committee_id": "SSVA"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "I000024", 
+      "district": null, 
+      "name": "Inhofe, James M.", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-03-02", 
+      "state": "OK", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "S000148", 
+      "district": null, 
+      "name": "Schumer, Charles E.", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-06-15", 
+      "state": "NY", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "T000464", 
+      "district": null, 
+      "name": "Tester, Jon", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2015-02-10", 
+      "state": "MT", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": true, 
+    "active_at": "2015-06-03", 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "vetoed": false
+  }, 
+  "introduced_at": "2015-02-10", 
+  "number": "425", 
+  "official_title": "A bill to amend title 38, United States Code, to provide for a five-year extension to the homeless veterans reintegration programs and to provide clarification regarding eligibility for services under such programs.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "Veterans Homeless Programs, Caregiver Services, and Other Improvements Act of 2015", 
+  "sponsor": {
+    "bioguide_id": "B001236", 
+    "district": null, 
+    "name": "Boozman, John", 
+    "state": "AR", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "REPORTED", 
+  "status_at": "2015-12-09", 
+  "subjects": [
+    "Armed forces and national security", 
+    "Homelessness and emergency shelter", 
+    "Indian social and development programs", 
+    "Veterans' education, employment, rehabilitation", 
+    "Veterans' loans, housing, homeless programs"
+  ], 
+  "subjects_top_term": "Armed forces and national security", 
+  "summary": {
+    "as": "Introduced in Senate", 
+    "date": "2015-02-10T05:00:00Z", 
+    "text": "Homeless Veterans' Reintegration Programs Reauthorization Act of 2015\n\nReauthorizes Department of Veterans Affairs (VA) homeless veterans reintegration programs through FY2020. Includes among those for whom job training, counseling, and placement services are to be provided to expedite their reintegration into the labor force: (1) veterans participating in the VA supported housing program for which rental assistance is provided under the United States Housing Act of 1937, (2) Indians who are veterans receiving assistance under the Native American Housing Assistance and Self Determination Act of 1996, and (3) veterans who are transitioning from being incarcerated."
+  }, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Homeless Veterans' Reintegration Programs Reauthorization Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "Veterans Homeless Programs, Caregiver Services, and Other Improvements Act of 2015", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": true, 
+      "title": "Jason Simcakoski Memorial Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to amend title 38, United States Code, to provide for a five-year extension to the homeless veterans reintegration programs and to provide clarification regarding eligibility for services under such programs.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Veterans Homeless Programs, Caregiver Services, and Other Improvements Act of 2015", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-12-22T10:06:53Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s425.xml"
+}
