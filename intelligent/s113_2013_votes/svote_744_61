@@ -1,28 +1,49 @@
 {
+  "amendment": {
+    "number": 1200, 
+    "purpose": "To provide for enhanced border security, including strong border security metrics and congressional votes on border security and for other purposes.", 
+    "type": "s"
+  }, 
   "bill": {
     "congress": 113, 
     "number": 744, 
-    "title": "A bill to provide for comprehensive immigration reform and for other purposes.", 
+    "title": "Border Security, Economic Opportunity, and Immigration Modernization Act", 
     "type": "s"
   }, 
-  "category": "passage", 
+  "category": "procedural", 
   "chamber": "s", 
   "congress": 113, 
-  "date": "2013-06-27T16:11:00-04:00", 
-  "number": 168, 
-  "question": "On Passage of the Bill S. 744", 
-  "record_modified": "2013-06-27T16:42:00-04:00", 
+  "date": "2013-06-19T15:45:00-04:00", 
+  "number": 154, 
+  "question": "On the Motion to Table S.Amdt. 1200 to S. 744 (Border Security, Economic Opportunity, and Immigration Modernization Act)", 
+  "record_modified": "2013-06-19T18:30:00-04:00", 
   "requires": "1/2", 
-  "result": "Bill Passed", 
-  "result_text": "Bill Passed (68-32)", 
+  "result": "Motion to Table Agreed to", 
+  "result_text": "Motion to Table Agreed to (61-37)", 
   "session": "2013", 
-  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00168.xml", 
-  "subject": "S. 744 As Amended", 
-  "type": "On Passage of the Bill", 
-  "updated_at": "2017-01-29T22:19:18-05:00", 
-  "vote_id": "s168-113.2013", 
+  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00154.xml", 
+  "subject": "Motion to Table Paul Amdt. No. 1200", 
+  "type": "On the Motion to Table S.Amdt. 1200 to S. 744 (Border Security, Economic Opportunity, and Immigration Modernization Act)", 
+  "updated_at": "2017-01-29T22:19:26-05:00", 
+  "vote_id": "s154-113.2013", 
   "votes": {
     "Nay": [
+      {
+        "display_name": "Alexander (R-TN)", 
+        "first_name": "Lamar", 
+        "id": "S289", 
+        "last_name": "Alexander", 
+        "party": "R", 
+        "state": "TN"
+      }, 
+      {
+        "display_name": "Ayotte (R-NH)", 
+        "first_name": "Kelly", 
+        "id": "S340", 
+        "last_name": "Ayotte", 
+        "party": "R", 
+        "state": "NH"
+      }, 
       {
         "display_name": "Barrasso (R-WY)", 
         "first_name": "John", 
@@ -136,6 +157,30 @@
         "state": "IA"
       }, 
       {
+        "display_name": "Hatch (R-UT)", 
+        "first_name": "Orrin", 
+        "id": "S118", 
+        "last_name": "Hatch", 
+        "party": "R", 
+        "state": "UT"
+      }, 
+      {
+        "display_name": "Heller (R-NV)", 
+        "first_name": "Dean", 
+        "id": "S352", 
+        "last_name": "Heller", 
+        "party": "R", 
+        "state": "NV"
+      }, 
+      {
+        "display_name": "Hoeven (R-ND)", 
+        "first_name": "John", 
+        "id": "S344", 
+        "last_name": "Hoeven", 
+        "party": "R", 
+        "state": "ND"
+      }, 
+      {
         "display_name": "Inhofe (R-OK)", 
         "first_name": "Jim", 
         "id": "S236", 
@@ -166,6 +211,14 @@
         "last_name": "Johnson", 
         "party": "R", 
         "state": "WI"
+      }, 
+      {
+        "display_name": "Kirk (R-IL)", 
+        "first_name": "Mark", 
+        "id": "S339", 
+        "last_name": "Kirk", 
+        "party": "R", 
+        "state": "IL"
       }, 
       {
         "display_name": "Lee (R-UT)", 
@@ -206,14 +259,6 @@
         "last_name": "Portman", 
         "party": "R", 
         "state": "OH"
-      }, 
-      {
-        "display_name": "Risch (R-ID)", 
-        "first_name": "James", 
-        "id": "S323", 
-        "last_name": "Risch", 
-        "party": "R", 
-        "state": "ID"
       }, 
       {
         "display_name": "Roberts (R-KS)", 
@@ -280,25 +325,26 @@
         "state": "MS"
       }
     ], 
-    "Not Voting": [], 
+    "Not Voting": [
+      {
+        "display_name": "Chiesa (R-NJ)", 
+        "first_name": "Jeffrey", 
+        "id": "S368", 
+        "last_name": "Chiesa", 
+        "party": "R", 
+        "state": "NJ"
+      }, 
+      {
+        "display_name": "Risch (R-ID)", 
+        "first_name": "James", 
+        "id": "S323", 
+        "last_name": "Risch", 
+        "party": "R", 
+        "state": "ID"
+      }
+    ], 
     "Present": [], 
     "Yea": [
-      {
-        "display_name": "Alexander (R-TN)", 
-        "first_name": "Lamar", 
-        "id": "S289", 
-        "last_name": "Alexander", 
-        "party": "R", 
-        "state": "TN"
-      }, 
-      {
-        "display_name": "Ayotte (R-NH)", 
-        "first_name": "Kelly", 
-        "id": "S340", 
-        "last_name": "Ayotte", 
-        "party": "R", 
-        "state": "NH"
-      }, 
       {
         "display_name": "Baldwin (D-WI)", 
         "first_name": "Tammy", 
@@ -386,14 +432,6 @@
         "last_name": "Casey", 
         "party": "D", 
         "state": "PA"
-      }, 
-      {
-        "display_name": "Chiesa (R-NJ)", 
-        "first_name": "Jeffrey", 
-        "id": "S368", 
-        "last_name": "Chiesa", 
-        "party": "R", 
-        "state": "NJ"
       }, 
       {
         "display_name": "Collins (R-ME)", 
@@ -500,14 +538,6 @@
         "state": "IA"
       }, 
       {
-        "display_name": "Hatch (R-UT)", 
-        "first_name": "Orrin", 
-        "id": "S118", 
-        "last_name": "Hatch", 
-        "party": "R", 
-        "state": "UT"
-      }, 
-      {
         "display_name": "Heinrich (D-NM)", 
         "first_name": "Martin", 
         "id": "S359", 
@@ -524,28 +554,12 @@
         "state": "ND"
       }, 
       {
-        "display_name": "Heller (R-NV)", 
-        "first_name": "Dean", 
-        "id": "S352", 
-        "last_name": "Heller", 
-        "party": "R", 
-        "state": "NV"
-      }, 
-      {
         "display_name": "Hirono (D-HI)", 
         "first_name": "Mazie", 
         "id": "S361", 
         "last_name": "Hirono", 
         "party": "D", 
         "state": "HI"
-      }, 
-      {
-        "display_name": "Hoeven (R-ND)", 
-        "first_name": "John", 
-        "id": "S344", 
-        "last_name": "Hoeven", 
-        "party": "R", 
-        "state": "ND"
       }, 
       {
         "display_name": "Johnson (D-SD)", 
@@ -570,14 +584,6 @@
         "last_name": "King", 
         "party": "I", 
         "state": "ME"
-      }, 
-      {
-        "display_name": "Kirk (R-IL)", 
-        "first_name": "Mark", 
-        "id": "S339", 
-        "last_name": "Kirk", 
-        "party": "R", 
-        "state": "IL"
       }, 
       {
         "display_name": "Klobuchar (D-MN)", 

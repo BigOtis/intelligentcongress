@@ -5,22 +5,22 @@
     "title": "A bill to restore States' sovereign rights to enforce State and local sales and use tax laws, and for other purposes.", 
     "type": "s"
   }, 
-  "category": "passage", 
+  "category": "procedural", 
   "chamber": "s", 
   "congress": 113, 
-  "date": "2013-05-06T18:12:00-04:00", 
-  "number": 113, 
-  "question": "On Passage of the Bill S. 743", 
-  "record_modified": "2013-05-06T19:05:00-04:00", 
+  "date": "2013-04-24T12:49:00-04:00", 
+  "number": 110, 
+  "question": "On the Motion to Proceed S. 743", 
+  "record_modified": "2013-04-24T16:56:00-04:00", 
   "requires": "1/2", 
-  "result": "Bill Passed", 
-  "result_text": "Bill Passed (69-27)", 
+  "result": "Motion to Proceed Agreed to", 
+  "result_text": "Motion to Proceed Agreed to (74-23)", 
   "session": "2013", 
-  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00113.xml", 
-  "subject": "S. 743, as amended", 
-  "type": "On Passage of the Bill", 
-  "updated_at": "2017-01-29T22:19:47-05:00", 
-  "vote_id": "s113-113.2013", 
+  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00110.xml", 
+  "subject": "Motion to Proceed to S. 743", 
+  "type": "On the Motion to Proceed", 
+  "updated_at": "2017-01-29T22:19:48-05:00", 
+  "vote_id": "s110-113.2013", 
   "votes": {
     "Nay": [
       {
@@ -30,14 +30,6 @@
         "last_name": "Ayotte", 
         "party": "R", 
         "state": "NH"
-      }, 
-      {
-        "display_name": "Barrasso (R-WY)", 
-        "first_name": "John", 
-        "id": "S317", 
-        "last_name": "Barrasso", 
-        "party": "R", 
-        "state": "WY"
       }, 
       {
         "display_name": "Baucus (D-MT)", 
@@ -56,12 +48,12 @@
         "state": "OK"
       }, 
       {
-        "display_name": "Crapo (R-ID)", 
-        "first_name": "Mike", 
-        "id": "S266", 
-        "last_name": "Crapo", 
+        "display_name": "Cornyn (R-TX)", 
+        "first_name": "John", 
+        "id": "S287", 
+        "last_name": "Cornyn", 
         "party": "R", 
-        "state": "ID"
+        "state": "TX"
       }, 
       {
         "display_name": "Cruz (R-TX)", 
@@ -70,14 +62,6 @@
         "last_name": "Cruz", 
         "party": "R", 
         "state": "TX"
-      }, 
-      {
-        "display_name": "Flake (R-AZ)", 
-        "first_name": "Jeff", 
-        "id": "S358", 
-        "last_name": "Flake", 
-        "party": "R", 
-        "state": "AZ"
       }, 
       {
         "display_name": "Grassley (R-IA)", 
@@ -110,14 +94,6 @@
         "last_name": "Inhofe", 
         "party": "R", 
         "state": "OK"
-      }, 
-      {
-        "display_name": "Johnson (R-WI)", 
-        "first_name": "Ron", 
-        "id": "S345", 
-        "last_name": "Johnson", 
-        "party": "R", 
-        "state": "WI"
       }, 
       {
         "display_name": "Kirk (R-IL)", 
@@ -166,14 +142,6 @@
         "last_name": "Paul", 
         "party": "R", 
         "state": "KY"
-      }, 
-      {
-        "display_name": "Risch (R-ID)", 
-        "first_name": "James", 
-        "id": "S323", 
-        "last_name": "Risch", 
-        "party": "R", 
-        "state": "ID"
       }, 
       {
         "display_name": "Roberts (R-KS)", 
@@ -242,20 +210,12 @@
     ], 
     "Not Voting": [
       {
-        "display_name": "Begich (D-AK)", 
-        "first_name": "Mark", 
-        "id": "S319", 
-        "last_name": "Begich", 
+        "display_name": "Cowan (D-MA)", 
+        "first_name": "William \"Mo\"", 
+        "id": "S367", 
+        "last_name": "Cowan", 
         "party": "D", 
-        "state": "AK"
-      }, 
-      {
-        "display_name": "Cornyn (R-TX)", 
-        "first_name": "John", 
-        "id": "S287", 
-        "last_name": "Cornyn", 
-        "party": "R", 
-        "state": "TX"
+        "state": "MA"
       }, 
       {
         "display_name": "Lautenberg (D-NJ)", 
@@ -266,12 +226,12 @@
         "state": "NJ"
       }, 
       {
-        "display_name": "Moran (R-KS)", 
-        "first_name": "Jerry", 
-        "id": "S347", 
-        "last_name": "Moran", 
-        "party": "R", 
-        "state": "KS"
+        "display_name": "Warren (D-MA)", 
+        "first_name": "Elizabeth", 
+        "id": "S366", 
+        "last_name": "Warren", 
+        "party": "D", 
+        "state": "MA"
       }
     ], 
     "Present": [], 
@@ -291,6 +251,22 @@
         "last_name": "Baldwin", 
         "party": "D", 
         "state": "WI"
+      }, 
+      {
+        "display_name": "Barrasso (R-WY)", 
+        "first_name": "John", 
+        "id": "S317", 
+        "last_name": "Barrasso", 
+        "party": "R", 
+        "state": "WY"
+      }, 
+      {
+        "display_name": "Begich (D-AK)", 
+        "first_name": "Mark", 
+        "id": "S319", 
+        "last_name": "Begich", 
+        "party": "D", 
+        "state": "AK"
       }, 
       {
         "display_name": "Bennet (D-CO)", 
@@ -429,12 +405,12 @@
         "state": "TN"
       }, 
       {
-        "display_name": "Cowan (D-MA)", 
-        "first_name": "William \"Mo\"", 
-        "id": "S367", 
-        "last_name": "Cowan", 
-        "party": "D", 
-        "state": "MA"
+        "display_name": "Crapo (R-ID)", 
+        "first_name": "Mike", 
+        "id": "S266", 
+        "last_name": "Crapo", 
+        "party": "R", 
+        "state": "ID"
       }, 
       {
         "display_name": "Donnelly (D-IN)", 
@@ -475,6 +451,14 @@
         "last_name": "Fischer", 
         "party": "R", 
         "state": "NE"
+      }, 
+      {
+        "display_name": "Flake (R-AZ)", 
+        "first_name": "Jeff", 
+        "id": "S358", 
+        "last_name": "Flake", 
+        "party": "R", 
+        "state": "AZ"
       }, 
       {
         "display_name": "Franken (D-MN)", 
@@ -573,6 +557,14 @@
         "state": "SD"
       }, 
       {
+        "display_name": "Johnson (R-WI)", 
+        "first_name": "Ron", 
+        "id": "S345", 
+        "last_name": "Johnson", 
+        "party": "R", 
+        "state": "WI"
+      }, 
+      {
         "display_name": "Kaine (D-VA)", 
         "first_name": "Timothy", 
         "id": "S362", 
@@ -661,6 +653,14 @@
         "state": "MD"
       }, 
       {
+        "display_name": "Moran (R-KS)", 
+        "first_name": "Jerry", 
+        "id": "S347", 
+        "last_name": "Moran", 
+        "party": "R", 
+        "state": "KS"
+      }, 
+      {
         "display_name": "Murphy (D-CT)", 
         "first_name": "Christopher", 
         "id": "S364", 
@@ -715,6 +715,14 @@
         "last_name": "Reid", 
         "party": "D", 
         "state": "NV"
+      }, 
+      {
+        "display_name": "Risch (R-ID)", 
+        "first_name": "James", 
+        "id": "S323", 
+        "last_name": "Risch", 
+        "party": "R", 
+        "state": "ID"
       }, 
       {
         "display_name": "Rockefeller (D-WV)", 
@@ -803,14 +811,6 @@
         "last_name": "Warner", 
         "party": "D", 
         "state": "VA"
-      }, 
-      {
-        "display_name": "Warren (D-MA)", 
-        "first_name": "Elizabeth", 
-        "id": "S366", 
-        "last_name": "Warren", 
-        "party": "D", 
-        "state": "MA"
       }, 
       {
         "display_name": "Whitehouse (D-RI)", 

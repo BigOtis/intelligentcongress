@@ -20,9 +20,8 @@ public class BillOrganizer{
     public static void main( String[] args ) throws IOException{
     	
     	BillOrganizer br = new BillOrganizer();
-    	br.printBillStatistics(senate113Bills,"s113_2013_bills");
-    	br.printBillStatistics(senate114Bills,"s113_2014_bills");
-
+    	br.printBillStatistics(senate113Bills,"s113_bills");
+    	br.printBillStatistics(senate114Bills,"s114_bills");
     }
     
     public void printBillStatistics(String dir, String newDirName) throws IOException{

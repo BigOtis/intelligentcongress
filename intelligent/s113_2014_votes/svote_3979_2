@@ -5,22 +5,22 @@
     "title": "A bill to amend the Internal Revenue Code of 1986 to ensure that emergency services volunteers are not taken into account as employees under the shared responsibility requirements contained in the Patient Protection and Affordable Care Act.", 
     "type": "hr"
   }, 
-  "category": "passage", 
+  "category": "cloture", 
   "chamber": "s", 
   "congress": 113, 
-  "date": "2014-04-07T17:32:00-04:00", 
-  "number": 101, 
-  "question": "On Passage of the Bill H.R. 3979", 
-  "record_modified": "2014-04-07T18:30:00-04:00", 
-  "requires": "1/2", 
-  "result": "Bill Passed", 
-  "result_text": "Bill Passed (59-38)", 
+  "date": "2014-04-03T15:02:00-04:00", 
+  "number": 100, 
+  "question": "Motion to Invoke Cloture on H.R. 3979", 
+  "record_modified": "2014-04-03T15:34:00-04:00", 
+  "requires": "3/5", 
+  "result": "Cloture Motion Agreed to", 
+  "result_text": "Cloture Motion Agreed to (61-35, 3/5 majority required)", 
   "session": "2014", 
-  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1132/vote_113_2_00101.xml", 
-  "subject": "H.R. 3979 As Amended", 
-  "type": "On Passage of the Bill", 
+  "source_url": "http://www.senate.gov/legislative/LIS/roll_call_votes/vote1132/vote_113_2_00100.xml", 
+  "subject": "On the Cloture Motion H.R. 3979", 
+  "type": "On the Cloture Motion", 
   "updated_at": "2017-01-29T22:27:58-05:00", 
-  "vote_id": "s101-113.2014", 
+  "vote_id": "s100-113.2014", 
   "votes": {
     "Nay": [
       {
@@ -96,28 +96,12 @@
         "state": "TN"
       }, 
       {
-        "display_name": "Cornyn (R-TX)", 
-        "first_name": "John", 
-        "id": "S287", 
-        "last_name": "Cornyn", 
-        "party": "R", 
-        "state": "TX"
-      }, 
-      {
         "display_name": "Crapo (R-ID)", 
         "first_name": "Mike", 
         "id": "S266", 
         "last_name": "Crapo", 
         "party": "R", 
         "state": "ID"
-      }, 
-      {
-        "display_name": "Cruz (R-TX)", 
-        "first_name": "Ted", 
-        "id": "S355", 
-        "last_name": "Cruz", 
-        "party": "R", 
-        "state": "TX"
       }, 
       {
         "display_name": "Enzi (R-WY)", 
@@ -214,14 +198,6 @@
         "last_name": "Lee", 
         "party": "R", 
         "state": "UT"
-      }, 
-      {
-        "display_name": "McCain (R-AZ)", 
-        "first_name": "John", 
-        "id": "S197", 
-        "last_name": "McCain", 
-        "party": "R", 
-        "state": "AZ"
       }, 
       {
         "display_name": "McConnell (R-KY)", 
@@ -338,20 +314,28 @@
         "state": "OK"
       }, 
       {
-        "display_name": "Landrieu (D-LA)", 
-        "first_name": "Mary", 
-        "id": "S258", 
-        "last_name": "Landrieu", 
-        "party": "D", 
-        "state": "LA"
+        "display_name": "Cornyn (R-TX)", 
+        "first_name": "John", 
+        "id": "S287", 
+        "last_name": "Cornyn", 
+        "party": "R", 
+        "state": "TX"
       }, 
       {
-        "display_name": "McCaskill (D-MO)", 
-        "first_name": "Claire", 
-        "id": "S312", 
-        "last_name": "McCaskill", 
-        "party": "D", 
-        "state": "MO"
+        "display_name": "Cruz (R-TX)", 
+        "first_name": "Ted", 
+        "id": "S355", 
+        "last_name": "Cruz", 
+        "party": "R", 
+        "state": "TX"
+      }, 
+      {
+        "display_name": "McCain (R-AZ)", 
+        "first_name": "John", 
+        "id": "S197", 
+        "last_name": "McCain", 
+        "party": "R", 
+        "state": "AZ"
       }
     ], 
     "Present": [], 
@@ -597,6 +581,14 @@
         "state": "MN"
       }, 
       {
+        "display_name": "Landrieu (D-LA)", 
+        "first_name": "Mary", 
+        "id": "S258", 
+        "last_name": "Landrieu", 
+        "party": "D", 
+        "state": "LA"
+      }, 
+      {
         "display_name": "Leahy (D-VT)", 
         "first_name": "Patrick", 
         "id": "S057", 
@@ -627,6 +619,14 @@
         "last_name": "Markey", 
         "party": "D", 
         "state": "MA"
+      }, 
+      {
+        "display_name": "McCaskill (D-MO)", 
+        "first_name": "Claire", 
+        "id": "S312", 
+        "last_name": "McCaskill", 
+        "party": "D", 
+        "state": "MO"
       }, 
       {
         "display_name": "Menendez (D-NJ)", 
