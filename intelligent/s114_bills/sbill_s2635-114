@@ -1,0 +1,117 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-03-03", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-03-03", 
+      "action_code": "", 
+      "committees": [
+        "SSCM"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.", 
+      "type": "referral"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s2635-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "Senate Commerce, Science, and Transportation", 
+      "committee_id": "SSCM"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "M001111", 
+      "district": null, 
+      "name": "Murray, Patty", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-03-03", 
+      "state": "WA", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "S001198", 
+      "district": null, 
+      "name": "Sullivan, Dan", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-03-03", 
+      "state": "AK", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": false, 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "vetoed": false
+  }, 
+  "introduced_at": "2016-03-03", 
+  "number": "2635", 
+  "official_title": "A bill to enhance the ability of the United States to carry out icebreaking in the polar regions and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "Coast Guard Icebreaker Recapitalization Act", 
+  "sponsor": {
+    "bioguide_id": "C000127", 
+    "district": null, 
+    "name": "Cantwell, Maria", 
+    "state": "WA", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "REFERRED", 
+  "status_at": "2016-03-03", 
+  "subjects": [
+    "Arctic and polar regions", 
+    "Coast guard", 
+    "Congressional oversight", 
+    "Department of Homeland Security", 
+    "Government studies and investigations", 
+    "Marine and inland water transportation", 
+    "Transportation and public works", 
+    "Transportation programs funding", 
+    "User charges and fees"
+  ], 
+  "subjects_top_term": "Transportation and public works", 
+  "summary": null, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "Coast Guard Icebreaker Recapitalization Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to enhance the ability of the United States to carry out icebreaking in the polar regions and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "Coast Guard Icebreaker Recapitalization Act", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-11-02T23:46:11Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s2635.xml"
+}

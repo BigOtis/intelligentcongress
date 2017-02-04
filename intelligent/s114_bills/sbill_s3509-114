@@ -1,0 +1,124 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-12-06", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-06", 
+      "action_code": "", 
+      "committees": [
+        "SSFR"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Foreign Relations.", 
+      "type": "referral"
+    }
+  ], 
+  "amendments": [], 
+  "bill_id": "s3509-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "Senate Foreign Relations", 
+      "committee_id": "SSFR"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "C001056", 
+      "district": null, 
+      "name": "Cornyn, John", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-12-10", 
+      "state": "TX", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": false, 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "vetoed": false
+  }, 
+  "introduced_at": "2016-12-06", 
+  "number": "3509", 
+  "official_title": "A bill to impose sanctions with respect to the People's Republic of China in relation to activities in the South China Sea and the East China Sea, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [], 
+  "short_title": "South China Sea and East China Sea Sanctions Act of 2016", 
+  "sponsor": {
+    "bioguide_id": "R000595", 
+    "district": null, 
+    "name": "Rubio, Marco", 
+    "state": "FL", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "REFERRED", 
+  "status_at": "2016-12-06", 
+  "subjects": [
+    "Alliances", 
+    "Asia", 
+    "Aviation and airports", 
+    "Bank accounts, deposits, capital", 
+    "Building construction", 
+    "China", 
+    "Congressional oversight", 
+    "Diplomacy, foreign officials, Americans abroad", 
+    "Foreign aid and international relief", 
+    "Foreign and international banking", 
+    "Foreign property", 
+    "Geography", 
+    "Government information and archives", 
+    "International affairs", 
+    "International law and treaties", 
+    "Japan", 
+    "Marine and inland water transportation", 
+    "Military assistance, sales, and agreements", 
+    "Military operations and strategy", 
+    "Navigation, waterways, harbors", 
+    "Pacific Ocean", 
+    "Philippines", 
+    "Sanctions", 
+    "Sovereignty, recognition, national governance and status", 
+    "U.S. and foreign investments", 
+    "Visas and passports"
+  ], 
+  "subjects_top_term": "International affairs", 
+  "summary": null, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "South China Sea and East China Sea Sanctions Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to impose sanctions with respect to the People's Republic of China in relation to activities in the South China Sea and the East China Sea, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "South China Sea and East China Sea Sanctions Act of 2016", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2016-12-28T09:54:01Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s3509.xml"
+}

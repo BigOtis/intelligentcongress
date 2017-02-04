@@ -1,0 +1,932 @@
+{
+  "actions": [
+    {
+      "acted_at": "2015-02-27", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-02-27", 
+      "action_code": "", 
+      "committees": [
+        "SSEV"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Environment and Public Works.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2015-04-29", 
+      "action_code": "", 
+      "committees": [
+        "SSEV"
+      ], 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Committee on Environment and Public Works. Ordered to be reported without amendment favorably.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2015-05-04", 
+      "action_code": "", 
+      "committee": "Environment and Public Works", 
+      "committees": [
+        "SSEV"
+      ], 
+      "references": [], 
+      "text": "Committee on Environment and Public Works. Reported by Senator Inhofe without amendment. Without written report.", 
+      "type": "reported"
+    }, 
+    {
+      "acted_at": "2015-05-04", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "65", 
+      "references": [], 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 65.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }, 
+    {
+      "acted_at": "2015-05-21", 
+      "action_code": "", 
+      "how": "by Unanimous Consent", 
+      "references": [
+        {
+          "reference": "CR S3249", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S3249", 
+          "type": "text as passed Senate"
+        }
+      ], 
+      "result": "pass", 
+      "status": "PASS_OVER:SENATE", 
+      "text": "Passed Senate without amendment by Unanimous Consent.", 
+      "type": "vote", 
+      "vote_type": "vote", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2015-05-22", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-05-22T14:32:40-04:00", 
+      "action_code": "H14000", 
+      "references": [], 
+      "text": "Received in the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2015-05-22", 
+      "action_code": "H11100", 
+      "committees": [
+        "HSPW"
+      ], 
+      "references": [], 
+      "text": "Referred to the House Committee on Transportation and Infrastructure.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2015-05-26", 
+      "action_code": "", 
+      "committees": [
+        "HSPW"
+      ], 
+      "references": [], 
+      "text": "Referred to the Subcommittee on Economic Development, Public Buildings and Emergency Management.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2016-12-08T10:52:45-05:00", 
+      "action_code": "H8D000", 
+      "references": [], 
+      "text": "ORDER OF PROCEDURE - Mr. Shuster asked unanimous consent that the question of adopting a motion to recommit on S. 612 be subject to postponement as though under clause 8 of rule 20. Agreed to without objection.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T10:52:48-05:00", 
+      "action_code": "H30000", 
+      "bill_ids": [
+        "hres949-114"
+      ], 
+      "references": [
+        {
+          "reference": "CR H7413-7498", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Considered under the provisions of rule H. Res. 949.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T10:52:50-05:00", 
+      "action_code": "H8D000", 
+      "bill_ids": [
+        "hr2028-114"
+      ], 
+      "references": [], 
+      "text": "The rule provides for consideration of the Senate Amendment to H.R. 2028 and consideration of S. 612. S. 612 will be considered under a closed rule. The resolution provides for one hour of general debate on both bills. The resolution also provides for a motion to recommit with or without instructions on S. 612.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T10:54:34-05:00", 
+      "action_code": "H8D000", 
+      "references": [], 
+      "text": "DEBATE - The House proceeded with one hour of debate on S. 612.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T12:14:31-05:00", 
+      "action_code": "H36100", 
+      "committees": [
+        "HSIF"
+      ], 
+      "references": [
+        {
+          "reference": "CR H7497", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR H7497", 
+          "type": "text"
+        }
+      ], 
+      "text": "Mr. Doyle, Michael F. moved to recommit with instructions to the Committee on Energy and Commerce.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T12:14:42-05:00", 
+      "action_code": "H8D000", 
+      "references": [], 
+      "text": "DEBATE - The House proceeded with ten minutes of debate on the motion to recommit with instructions. The instructions contained in the motion seek to require the bill to be reported back to the House with an amendment to strike the temporary Buy American requirement for iron and steel products used in drinking water projects and replace it with a permanent Buy American requirement.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T12:21:18-05:00", 
+      "action_code": "H8A000", 
+      "references": [
+        {
+          "reference": "CR H7497", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "The previous question on the motion to recommit with instructions was ordered pursuant to the rule.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T12:21:37-05:00", 
+      "action_code": "H8D000", 
+      "references": [], 
+      "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on the motion to recommit with instructions, the Chair put the question on the motion and by voice vote announced that the ayes had prevailed. Mr. Doyle demanded the yeas and nays and pursuant to the order of the House of December 8, 2016, the Chair postponed further proceedings on the motion to recommit with instructions until a time to be announced.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T14:04:53-05:00", 
+      "action_code": "H30000", 
+      "references": [
+        {
+          "reference": "CR H7526-7527", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Considered as unfinished business.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T14:11:18-05:00", 
+      "action_code": "H36110", 
+      "committees": [
+        "HSIF"
+      ], 
+      "references": [], 
+      "text": "On motion to recommit with instructions Failed by the Yeas and Nays: 184 - 236 (Roll no. 621).", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08T14:19:52-05:00", 
+      "action_code": "H37100", 
+      "how": "roll", 
+      "references": [
+        {
+          "reference": "CR H7413-7484", 
+          "type": "text"
+        }
+      ], 
+      "result": "pass", 
+      "roll": "622", 
+      "status": "PASSED:BILL", 
+      "suspension": null, 
+      "text": "On passage Passed by recorded vote: 360 - 61 (Roll no. 622).", 
+      "type": "vote", 
+      "vote_type": "vote2", 
+      "where": "h"
+    }, 
+    {
+      "acted_at": "2016-12-08T14:19:54-05:00", 
+      "action_code": "H38310", 
+      "references": [], 
+      "text": "Motion to reconsider laid on the table Agreed to without objection.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on House action received in Senate and at desk: House amendment to Senate bill.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S6882-6898", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Measure laid before Senate by unanimous consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S6882", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Motion by Senator McConnell to concur in the House amendment to S. 612 made in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S6882", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S6882", 
+          "type": "text"
+        }
+      ], 
+      "text": "Cloture motion on the motion to concur in the House amendment to S. 612 presented in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S6882-6883", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S6882", 
+          "type": "text"
+        }
+      ], 
+      "text": "Motion by Senator McConnell to concur in the House amendment to S. 612 with an amendment (SA 5144) made in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-08", 
+      "action_code": "", 
+      "committees": [
+        "SSEV"
+      ], 
+      "references": [
+        {
+          "reference": "CR S6883", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S6883", 
+          "type": "text"
+        }
+      ], 
+      "text": "Motion by Senator McConnell to refer to Senate Committee on Environment and Public Works the House message to accompany S. 612 with instructions to report back forthwith with the following amendment (SA 5146) in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-09", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S6995-6998, S7000-7004", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Considered by Senate (Message from the House considered).", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7004", 
+          "type": "consideration"
+        }, 
+        {
+          "reference": "CR S7004", 
+          "type": "text"
+        }
+      ], 
+      "text": "Cloture on the motion to concur in the House amendment to S. 612 invoked in Senate by Yea-Nay Vote. 69 - 30. Record Vote Number: 162.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "committees": [
+        "SSEV"
+      ], 
+      "references": [
+        {
+          "reference": "CR S7004", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Motion by Senator McConnell to refer to Senate Committee on Environment and Public Works the House message to accompany S. 612 with instructions to report back forthwith with the following amendment (SA 5146) fell when cloture invoked on the motion to concur in the House amendment to S. 612 in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7004", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Motion by Senator McConnell to concur in the House amendment to S. 612 with an amendment (SA 5144) withdrawn in Senate.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "how": "roll", 
+      "references": [
+        {
+          "reference": "CR S7004", 
+          "type": "consideration"
+        }
+      ], 
+      "result": "pass", 
+      "roll": "163", 
+      "status": "PASSED:BILL", 
+      "text": "Senate agreed to House amendment to S. 612 by Yea-Nay Vote. 78 - 21. Record Vote Number: 163.", 
+      "type": "vote", 
+      "vote_type": "pingpong", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-12-12", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-14", 
+      "action_code": "E20000", 
+      "references": [], 
+      "text": "Presented to President.", 
+      "type": "topresident"
+    }, 
+    {
+      "acted_at": "2016-12-16", 
+      "action_code": "E30000", 
+      "references": [], 
+      "status": "ENACTED:SIGNED", 
+      "text": "Signed by President.", 
+      "type": "signed"
+    }, 
+    {
+      "acted_at": "2016-12-16", 
+      "action_code": "E40000", 
+      "congress": "114", 
+      "law": "public", 
+      "number": "322", 
+      "references": [], 
+      "text": "Became Public Law No: 114-322.", 
+      "type": "enacted"
+    }
+  ], 
+  "amendments": [
+    {
+      "amendment_id": "samdt5162-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5162"
+    }, 
+    {
+      "amendment_id": "samdt5161-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5161"
+    }, 
+    {
+      "amendment_id": "samdt5160-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5160"
+    }, 
+    {
+      "amendment_id": "samdt5159-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5159"
+    }, 
+    {
+      "amendment_id": "samdt5158-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5158"
+    }, 
+    {
+      "amendment_id": "samdt5157-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5157"
+    }, 
+    {
+      "amendment_id": "samdt5156-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5156"
+    }, 
+    {
+      "amendment_id": "samdt5149-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5149"
+    }, 
+    {
+      "amendment_id": "samdt5148-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5148"
+    }, 
+    {
+      "amendment_id": "samdt5147-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5147"
+    }, 
+    {
+      "amendment_id": "samdt5146-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5146"
+    }, 
+    {
+      "amendment_id": "samdt5145-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5145"
+    }, 
+    {
+      "amendment_id": "samdt5144-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5144"
+    }, 
+    {
+      "amendment_id": "hamdt1488-114", 
+      "amendment_type": "hamdt", 
+      "chamber": "h", 
+      "number": "1488"
+    }
+  ], 
+  "bill_id": "s612-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [], 
+  "committees": [
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "House Transportation and Infrastructure", 
+      "committee_id": "HSPW"
+    }, 
+    {
+      "activity": [
+        "referral"
+      ], 
+      "committee": "House Transportation and Infrastructure", 
+      "committee_id": "HSPW", 
+      "subcommittee": "Subcommittee on Economic Development, Public Buildings and Emergency Management", 
+      "subcommittee_id": "13"
+    }, 
+    {
+      "activity": [
+        "reporting", 
+        "markup", 
+        "referral"
+      ], 
+      "committee": "Senate Environment and Public Works", 
+      "committee_id": "SSEV"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "C001098", 
+      "district": null, 
+      "name": "Cruz, Ted", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2015-02-27", 
+      "state": "TX", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": {
+    "congress": "114", 
+    "law_type": "public", 
+    "number": "322"
+  }, 
+  "history": {
+    "active": true, 
+    "active_at": "2015-05-04", 
+    "awaiting_signature": false, 
+    "enacted": true, 
+    "enacted_at": "2016-12-16", 
+    "house_passage_result": "pass", 
+    "house_passage_result_at": "2016-12-08T14:19:52-05:00", 
+    "senate_passage_result": "pass", 
+    "senate_passage_result_at": "2016-12-10", 
+    "vetoed": false
+  }, 
+  "introduced_at": "2015-02-27", 
+  "number": "612", 
+  "official_title": "To provide for improvements to the rivers and harbors of the United States, to provide for the conservation and development of water and related resources, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [
+    {
+      "bill_id": "hr1744-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr3079-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr4470-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr4858-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr4859-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5087-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5987-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr6154-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1822-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s3131-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr176-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr223-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr387-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr1296-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr4685-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr4797-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5246-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5468-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5765-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5977-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s921-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1024-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2469-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2579-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2588-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2949-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr3382-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr3692-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1724-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2717-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5303-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5633-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr5984-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1125-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s1983-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "s2848-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hconres183-114", 
+      "identified_by": "House", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hres949-114", 
+      "identified_by": "House", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr6460-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }
+  ], 
+  "short_title": "Water Infrastructure Improvements for the Nation Act", 
+  "sponsor": {
+    "bioguide_id": "C001056", 
+    "district": null, 
+    "name": "Cornyn, John", 
+    "state": "TX", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "ENACTED:SIGNED", 
+  "status_at": "2016-12-16", 
+  "subjects": [
+    "Congressional tributes", 
+    "Government buildings, facilities, and property", 
+    "Government operations and politics", 
+    "Texas"
+  ], 
+  "subjects_top_term": "Government operations and politics", 
+  "summary": {
+    "as": "Passed Senate without amendment", 
+    "date": "2015-05-21T11:50:03Z", 
+    "text": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.)\n\nDesignates the federal building and U.S. courthouse located at 1300 Victoria Street in Laredo, Texas, as the \"George P. Kazen Federal Building and United States Courthouse.\""
+  }, 
+  "titles": [
+    {
+      "as": "passed house", 
+      "is_for_portion": false, 
+      "title": "Water Infrastructure Improvements for the Nation Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed house", 
+      "is_for_portion": false, 
+      "title": "WIIN Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed house", 
+      "is_for_portion": true, 
+      "title": "Blackfeet Water Rights Settlement Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed house", 
+      "is_for_portion": true, 
+      "title": "Pechanga Band of Luiseno Mission Indians Water Rights Settlement Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed house", 
+      "is_for_portion": true, 
+      "title": "Water and Waste Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed house", 
+      "is_for_portion": true, 
+      "title": "Water Resources Development Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": false, 
+      "title": "Water Infrastructure Improvements for the Nation Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": false, 
+      "title": "WIIN Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": true, 
+      "title": "Blackfeet Water Rights Settlement Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": true, 
+      "title": "Pechanga Band of Luiseno Mission Indians Water Rights Settlement Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": true, 
+      "title": "Water and Waste Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": true, 
+      "title": "Water Resources Development Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to designate the Federal building and United States courthouse located at 1300 Victoria Street in Laredo, Texas, as the \"George P. Kazen Federal Building and United States Courthouse\".", 
+      "type": "official"
+    }, 
+    {
+      "as": "enacted", 
+      "is_for_portion": false, 
+      "title": "To provide for improvements to the rivers and harbors of the United States, to provide for the conservation and development of water and related resources, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "WIIN Act", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2017-01-21T12:33:34Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s612.xml"
+}

@@ -1,0 +1,365 @@
+{
+  "actions": [
+    {
+      "acted_at": "2016-09-15", 
+      "action_code": "10000", 
+      "references": [], 
+      "text": "Introduced in Senate", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-09-15", 
+      "action_code": "", 
+      "committees": [
+        "SSCM"
+      ], 
+      "references": [], 
+      "status": "REFERRED", 
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.", 
+      "type": "referral"
+    }, 
+    {
+      "acted_at": "2016-09-21", 
+      "action_code": "", 
+      "committees": [
+        "SSCM"
+      ], 
+      "references": [], 
+      "status": "REPORTED", 
+      "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.", 
+      "type": "calendar"
+    }, 
+    {
+      "acted_at": "2016-12-05", 
+      "action_code": "", 
+      "committee": "Commerce, Science, and Transportation", 
+      "committees": [
+        "SSCM"
+      ], 
+      "references": [], 
+      "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Thune with an amendment in the nature of a substitute. With written report No. 114-390.", 
+      "type": "reported"
+    }, 
+    {
+      "acted_at": "2016-12-05", 
+      "action_code": "", 
+      "calendar": "Senate Legislative", 
+      "number": "696", 
+      "references": [], 
+      "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 696.", 
+      "type": "calendar", 
+      "under": "General Orders"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7135-7144", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "Measure laid before Senate by unanimous consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "references": [
+        {
+          "reference": "CR S7144", 
+          "type": "consideration"
+        }
+      ], 
+      "text": "The committee substitute withdrawn by Unanimous Consent.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-10", 
+      "action_code": "", 
+      "how": "by Unanimous Consent", 
+      "references": [], 
+      "result": "pass", 
+      "status": "PASS_OVER:SENATE", 
+      "text": "Passed Senate with an amendment by Unanimous Consent.", 
+      "type": "vote", 
+      "vote_type": "vote", 
+      "where": "s"
+    }, 
+    {
+      "acted_at": "2016-12-12", 
+      "action_code": "", 
+      "references": [], 
+      "text": "Message on Senate action sent to the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-12T15:05:12-05:00", 
+      "action_code": "H14000", 
+      "references": [], 
+      "text": "Received in the House.", 
+      "type": "action"
+    }, 
+    {
+      "acted_at": "2016-12-12T16:49:24-05:00", 
+      "action_code": "H15000", 
+      "references": [], 
+      "text": "Held at the desk.", 
+      "type": "action"
+    }
+  ], 
+  "amendments": [
+    {
+      "amendment_id": "samdt5180-114", 
+      "amendment_type": "samdt", 
+      "chamber": "s", 
+      "number": "5180"
+    }
+  ], 
+  "bill_id": "s3346-114", 
+  "bill_type": "s", 
+  "by_request": false, 
+  "committee_reports": [
+    "S. Rept. 114-390"
+  ], 
+  "committees": [
+    {
+      "activity": [
+        "reporting", 
+        "markup", 
+        "referral"
+      ], 
+      "committee": "Senate Commerce, Science, and Transportation", 
+      "committee_id": "SSCM"
+    }
+  ], 
+  "congress": "114", 
+  "cosponsors": [
+    {
+      "bioguide_id": "C000127", 
+      "district": null, 
+      "name": "Cantwell, Maria", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-09-19", 
+      "state": "WA", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "M001111", 
+      "district": null, 
+      "name": "Murray, Patty", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-09-27", 
+      "state": "WA", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "N000032", 
+      "district": null, 
+      "name": "Nelson, Bill", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "FL", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "P000595", 
+      "district": null, 
+      "name": "Peters, Gary C.", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "MI", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "R000595", 
+      "district": null, 
+      "name": "Rubio, Marco", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "FL", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "T000250", 
+      "district": null, 
+      "name": "Thune, John", 
+      "original_cosponsor": false, 
+      "sponsored_at": "2016-09-19", 
+      "state": "SD", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "U000039", 
+      "district": null, 
+      "name": "Udall, Tom", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "NM", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }, 
+    {
+      "bioguide_id": "W000437", 
+      "district": null, 
+      "name": "Wicker, Roger F.", 
+      "original_cosponsor": true, 
+      "sponsored_at": "2016-09-15", 
+      "state": "MS", 
+      "title": "Sen", 
+      "withdrawn_at": null
+    }
+  ], 
+  "enacted_as": null, 
+  "history": {
+    "active": true, 
+    "active_at": "2016-12-05", 
+    "awaiting_signature": false, 
+    "enacted": false, 
+    "senate_passage_result": "pass", 
+    "senate_passage_result_at": "2016-12-10", 
+    "vetoed": false
+  }, 
+  "introduced_at": "2016-09-15", 
+  "number": "3346", 
+  "official_title": "A bill to authorize the programs of the National Aeronautics and Space Administration, and for other purposes.", 
+  "popular_title": null, 
+  "related_bills": [
+    {
+      "bill_id": "hr6076-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }, 
+    {
+      "bill_id": "hr6531-114", 
+      "identified_by": "CRS", 
+      "reason": "related", 
+      "type": "bill"
+    }
+  ], 
+  "short_title": "National Aeronautics and Space Administration Transition Authorization Act of 2016", 
+  "sponsor": {
+    "bioguide_id": "C001098", 
+    "district": null, 
+    "name": "Cruz, Ted", 
+    "state": "TX", 
+    "title": "Sen", 
+    "type": "person"
+  }, 
+  "status": "PASS_OVER:SENATE", 
+  "status_at": "2016-12-10", 
+  "subjects": [
+    "Accidents", 
+    "Administrative law and regulatory procedures", 
+    "Advanced technology and technological innovations", 
+    "Advisory bodies", 
+    "Astronomy", 
+    "Aviation and airports", 
+    "Business ethics", 
+    "Competitiveness, trade promotion, trade deficits", 
+    "Computer security and identity theft", 
+    "Computers and information technology", 
+    "Congressional oversight", 
+    "Elementary and secondary education", 
+    "Executive agency funding and structure", 
+    "Federal officials", 
+    "Government buildings, facilities, and property", 
+    "Government liability", 
+    "Government studies and investigations", 
+    "Health information and medical records", 
+    "Higher education", 
+    "Historic sites and heritage areas", 
+    "Manufacturing", 
+    "Medical research", 
+    "Medical tests and diagnostic methods", 
+    "Mental health", 
+    "National Aeronautics and Space Administration", 
+    "Public contracts and procurement", 
+    "Public-private cooperation", 
+    "Research administration and funding", 
+    "Research and development", 
+    "Science and engineering education", 
+    "Science, technology, communications", 
+    "Scientific communication", 
+    "Solid waste and recycling", 
+    "Space flight and exploration", 
+    "Spacecraft and satellites", 
+    "Student aid and college costs", 
+    "Technology assessment", 
+    "Technology transfer and commercialization", 
+    "Transportation costs", 
+    "Transportation safety and security", 
+    "Worker safety and health"
+  ], 
+  "subjects_top_term": "Science, technology, communications", 
+  "summary": {
+    "as": "Reported to Senate amended", 
+    "date": "2016-12-05T14:22:44Z", 
+    "text": "National Aeronautics and Space Administration Transition Authorization Act of 2016\n\nTITLE I--AUTHORIZATION OF APPROPRIATIONS\n\n(Sec. 101) This bill authorizes appropriations to the National Aeronautics and Space Administration (NASA) for FY2017 for:\n\n exploration; space operations; science; aeronautics; space technology; education; safety, security, and mission services; construction and environmental compliance and restoration; and the NASA Inspector General. TITLE II--SUSTAINING NATIONAL SPACE COMMITMENTS\n\n(Sec. 201) Expresses the sense of Congress that NASA is and should remain a multimission agency with a balanced and robust set of core missions in science, space technology, aeronautics, human space flight and exploration, and education.\n\nTITLE III--MAXIMIZING UTILIZATION OF THE ISS AND LOW-EARTH ORBIT\n\n(Sec. 301) The bill expresses the sense of Congress that:\n\n NASA should continue to support the development of the Commercial Crew Program as planned to end reliance upon Russian transport of U.S. astronauts to the International Space Station (ISS); and the ISS should continue to provide a platform for fundamental, microgravity, discovery-based space life and physical sciences research. Congress reaffirms that it shall be U.S. policy, in consultation with its international partners in the ISS program, to support full and complete utilization of the ISS through at least 2024.\n\n(Sec. 302) The bill declares that it is U.S. policy that, in order to foster the competitive development, operation, improvement, and commercial availability of space transportation services, services for federal government access to and return from the ISS shall be procured by fair and open competition for well-defined, milestone-based, Federal Acquisition Regulation-based contracts.\n\nThe Commercial Orbital Transportation Services Program is renamed as the Commercial Resupply Services Program.\n\nNASA shall protect the safety of U.S. space crews by ensuring that commercial crew systems meet all applicable human rating requirements under specified federal law.\n\n(Sec. 303) NASA shall develop a plan for transitioning the ISS from the current regime that relies heavily on NASA sponsorship to a regime where NASA is one of many customers of a low-Earth orbit commercial human space flight enterprise.\n\nNASA shall submit triennial reports until 2023 which include:\n\n identification of the low-Earth orbit capabilities necessary to meet its deep space human flight exploration objectives and mission requirements beyond the period of operation and use of the ISS; steps NASA is taking and will take, including demonstrations that could be conducted on the ISS, to stimulate and facilitate commercial demand and supply of products and services in low-Earth orbit; an assessment of current and projected commercial activities in low-Earth orbit, including on the ISS, and their potential for meeting the capabilities identified; identification of barriers preventing the commercialization of low-Earth orbit; evaluation of the feasible and preferred service life of the ISS beyond September 30, 2024, through at least 2028, as a unique scientific, commercial, and exploration-related facility; evaluation of the functions, roles, and responsibilities for the management and operation of the ISS; and a description of the progress on meeting human exploration research objectives on the ISS and prospects for accomplishing future exploration and other research objectives on future commercially supplied low-Earth orbit platforms or migration of those objectives to cis-lunar space. The bill defines \"cis-lunar space\" as the region of space from the Earth out to and including the region around the surface of the Moon.\n\n(Sec. 304) Any contract between NASA and a provider (a person that provides domestic launch or domestic reentry services to the federal government) may provide that the United States will indemnify that provider against successful claims (including reasonable expenses of litigation or settlement) by third parties for death, bodily injury, or loss of or damage to property resulting from launch services and reentry services carried out under the contract that are defined in it as unusually hazardous or nuclear in nature, but only to the extent the total amount of successful claims related to the activities under that contract:\n\n is more than the amount of insurance or demonstration of financial responsibility, and is not more than $1.5 billion (plus additional amounts necessary to reflect inflation occurring after January 1, 1989) above such insurance or financial responsibility amount. A contract made under this section that provides indemnification shall provide for:\n\n notice to the United States of any claim or suit against the provider for death, bodily injury, or loss of or damage to property; and control of or assistance in the defense by the United States, at its election, of such claim or suit and approval of any settlement. A provider that has a contract with NASA under this section shall obtain liability insurance or demonstrate financial responsibility in amounts to compensate for the maximum probable loss from claims by:\n\n a third party for death, bodily injury, or property damage or loss resulting from a launch service or reentry service carried out under the contract; and the federal government for damage or loss to government property resulting from a launch service or reentry service carried out under such contract. NASA shall determine maximum probable losses within 90 days of the provider requesting such a determination and submitting all of the information that NASA requires. NASA may revise such a determination if the revision is warranted based on new information.\n\nFor the total claims related to one launch or reentry, a provider shall not be required to obtain insurance or demonstrate financial responsibility of more than:\n\n $500 million with respect to a third party, or $100 million with respect to the federal government; or the maximum liability insurance available on the world market at reasonable cost. An insurance policy or demonstration of financial responsibility regarding this section shall protect to the extent of their potential liability for involvement in launch services or reentry services:\n\n the federal government, federal government personnel, related entities of the federal government, related entities of the provider, and government astronauts (as defined in federal law). NASA may not indemnify a provider under this section until there is a cross-waiver between NASA and the provider.\n\nThe bill states that NASA shall reciprocally waive claims with a provider under which each party agrees to be responsible for damage or loss to its property, or for losses resulting from any injury or death sustained by its employees or agents. Such a waiver shall apply only to the extent that the claims are more than the amount of insurance or demonstration of financial responsibility.\n\nIndemnification under this section may exclude claims that result from the willfull misconduct of the provider or its related entities.\n\nNo payment may be made under this section unless NASA or its designee certifies that the amount is just and reasonable.\n\nNASA may not provide indemnification under this section for an activity requiring a license or permit under provisions relating to commercial space launch activities.\n\nTITLE IV--ADVANCING HUMAN DEEP SPACE EXPLORATION\n\nSubtitle Human Exploration Goals and Objectives\n\n(Sec. 411) The bill states that the long-terms goals for the human space flight and exploration efforts of NASA shall be:\n\n to expand permanent human presence beyond low-Earth orbit with the involvement of international, academic, and industry partners; and the peaceful settlement of a location in space or on another celestial body and a thriving space economy in the 21st century. (Sec. 412) The key U.S. objectives for human expansion into space shall include achieving human exploration of Mars, including the establishment of a capability to extend human presence, including potential human habitation, on the surface of Mars.\n\n (Sec. 413) NASA shall manage human space flight programs, including the Space Launch System (SLS) and the Orion multipurpose crew vehicle, to enable humans to explore Mars and other space destinations.\n\n(Sec. 414) NASA shall implement an exploration research and technology development program for enabling human and robotic operations.\n\n(Sec. 415) The bill declares that in order to maximize the cost-effectiveness of the long-term exploration and utilization activities of the United States, NASA shall take all necessary steps, including engaging international, academic, and industry partners, to ensure that activities in NASA's human exploration program balance how those activities might also help meet the requirements of future exploration and utilization activities leading to human habitation on the surface of Mars.\n\nWithin budgetary considerations, once an exploration-related project enters its development phase, NASA shall seek to complete such project without any undue delays.\n\nSubtitle B--Assuring Core Capabilities for Exploration\n\n(Sec. 421) NASA shall continue the development of:\n\n an uncrewed exploration mission to demonstrate the capability of the SLS and Orion as an integrated system by 2018; a crewed exploration mission to demonstrate the SLS, including the core stage and exploration upper stages, and a crewed Orion mission by 2021; subsequent missions beginning with the EM-3 using the SLS and Orion to extend into cis-lunar space and eventually to Mars; and a deep space habitat as the next element in a deep space exploration architecture along with the SLS and Orion. NASA shall assess the utility of the SLS for use by the science community and for other federal government launch needs, including considering the overall cost and schedule savings from reduced transit times and increased science returns enabled by the capabilities of the SLS.\n\nSubtitle C--Journey to Mars\n\n(Sec. 431) The bill states it is U.S. policy that NASA shall develop propulsion technologies to support:\n\n its core missions in science, aeronautics, and human space flight and exploration; and sustained investments in early stage innovation and fundamental research and technologies to expand the boundaries of the nation's aerospace enterprise. Furthermore, a goal of such technologies shall be to significantly reduce the amount of time it takes for human travel to Mars.\n\n(Sec. 433) NASA shall develop a strategic framework, including a critical decision plan, for expanding human presence beyond low-Earth orbit, including to cis-lunar space, the surface of Mars, the moons of Mars, and beyond.\n\nThe strategic framework shall include:\n\n an integrated set of exploration, science, and other goals and objectives of a U.S. human space exploration program with the long-term goal of human missions near to or on the surface of Mars in the 2030s; precursor missions in cis-lunar space and other missions or activities necessary to meet the exploration objectives developed under the human space exploration program; and a description of how cis-lunar elements, objectives, and activities advance the human exploration of Mars. As part of the strategic framework, NASA shall include a critical decision plan that:\n\n identifies and defines key decisions to guide human space exploration priorities and plans that need to be made by June 30, 2020; define decisions needed to maximize efficiencies and resources for reaching the near, intermediate, and long-term goals and objectives of space exploration; and identifies and defines timelines and milestones for a sustainable cadence of missions beginning with EM-3 for the SLS and Orion to extend human exploration from cis-lunar space to the surface of Mars. NASA shall submit an initial strategic framework, including a critical decision plan, by December 1, 2017, and updated frameworks biennially thereafter.\n\n(Sec. 434) NASA shall submit a plan for achieving an advanced space suit capability that aligns with crew needs for exploration enabled by the SLS and Orion, including an evaluation of the merit of delivering the planned suit system for use on the ISS.\n\n(Sec. 435) NASA shall evaluate:\n\n those alternative approaches to the Asteroid Robotic Redirect Mission that demonstrate the technologies and capabilities needed for a human mission to Mars; the scientific and technical benefits of those approaches; and the commercial benefits of those approaches, including their impact on the development of domestic solar electric propulsion technology to bolster U.S. competitiveness in the global marketplace. Subtitle D--Scott Kelly Human Spaceflight and Exploration Act\n\nScott Kelly Human Spaceflight and Exploration Act\n\n(Sec. 443) NASA may provide for medical monitoring, diagnosis, and treatment of current and former U.S. government astronauts and former payload specialists for conditions associated with human space flight.\n\nNASA may not:\n\n provide for medical monitoring, diagnosis, or treatment of such astronauts and payload specialists for any psychological or medical condition not associated with human space flight; or require a former U.S. government astronaut or payload specialist to participate in the medical monitoring authorized by this section. The Administrator of NASA shall protect the privacy of all medical records generated with respect to such medical monitoring, diagnosis, and treatment and accessible to NASA.\n\nTITLE V--ADVANCING SPACE SCIENCE\n\n(Sec. 502) In accordance with the priorities established in the most recent decadal survey for planetary science, NASA shall ensure the completion of a balanced set of Discovery, New Frontiers, and flagship missions.\n\nConsistent with such set of missions and while maintaining the continuity of scientific data and steady development of capabilities and technologies, NASA may seek, if necessary, adjustments to mission priorities, schedule, and scope as a result of changing budget projections.\n\n(Sec. 503) NASA should continue robust surveillance of the performance of the James Webb Space Telescope project and continue to improve the reliability of cost estimates and contractor performance data and other major spaceflight projects so as to enhance its ability to deliver such telescope on-time and within budget.\n\n(Sec. 504) NASA should make progress on the technologies and capabilities needed to position it to meet the objectives concerning the Wide-Field Infrared Survey Telescope (WFIRST), as outlined in the 2010 National Academies' Astronomy and Astrophysics Decadal Survey, in a way that maximizes the scientific productivity of meeting those objectives for the resources invested.\n\n(Sec. 505) The bill expresses the sense of Congress that the Mars 2020 mission, to develop a Mars rover and to enable the return of samples to Earth, should remain a priority for NASA.\n\nSuch mission should also:\n\n significantly increase our understanding of Mars, help determine whether life previously existed on that planet, and provide opportunities for gathering knowledge and demonstrating technologies that address the challenges of future human expeditions to Mars. (Sec. 506) The bill expresses the sense of Congress that a scientific, robotic exploration mission to Europa (a moon orbiting Jupiter), as prioritized in the previous and current Planetary Science Decadal Surveys, should be supported.\n\nTITLE VI--MAXIMIZING EFFICIENCY\n\nSubtitle A--Agency Information Technology and Cybersecurity\n\n(Sec. 611) NASA shall take specified actions governing its information technology operations and investments, including those that:\n\n ensure the NASA Chief Information Officer has a significant role in the management, governance, and oversight processes related to information technology operations and investments and information security programs for the protection of NASA systems; arrange for the NASA Chief Information Officer to directly report to the NASA Administrator; provide an information technology program management framework; establish a monetary threshold for all agency information technology investments and related contracts; and improve the operational linkage between the NASA Chief Information Officer and each NASA mission directorate, center, and mission support office. (Sec. 612) NASA shall develop a specified information technology strategic plan to guide NASA information technology management and strategic objectives.\n\nThe plan shall include:\n\n near and long-term goals and objectives for leveraging information technology, a plan on how NASA will submit a list of information technology projects to Congress, an implementation overview for an agency-wide centralized approach to information technology investments and operations, a plan to increase the efficiency and effectiveness of information technology investments, a plan for improving the information security of NASA information and NASA information systems, and submission by NASA to Congress of information regarding high risk projects and cybersecurity risks. NASA shall submit such plan and any plan updates to Congress.\n\n(Sec. 613) NASA shall implement a specified agency-wide information security plan to enhance information security for NASA information and information infrastructure.\n\nThe Chief Information Officer shall submit the plan to the NASA Administrator for approval prior to its implementation.\n\nThe plan shall include:\n\n an overview of the requirements for the information security system; an agency-wide risk management framework for information security; an identification and assignment of the roles, responsibilities, and management commitment for information security at NASA; and heightened consideration of the need to protect the information security of mission-critical systems and activities and high-impact and moderate-impact information systems. NASA shall include in biennial reports on the implementation of its information security system an update on its efforts to apply additional information security protections to secure high-impact and moderate-impact information systems and mission-critical systems and activities, including those systems that control spacecraft and maintain critical data sources.\n\n(Sec. 614) Until the information security plan is developed and implemented agency-wide, NASA shall update Congress on the progress it is making toward implementation of or response to:\n\n such plan; and the information security-related recommendations made by the NASA Inspector General and the Government Accountability Office in the five years preceding the enactment of this bill. (Sec. 615) NASA shall:\n\n develop a strategic plan for transitioning NASA from legacy software; implement an agency-wide software license management policy to improve centralization, lifecycle management, and procurement education; and direct an agency-wide inventory of NASA's total software licenses and spending. (Sec. 616) NASA shall notify Congress when it has implemented the information security recommendations from the National Academy of Public Administration on foreign national access management, based on reports from January 2014 and March 2016.\n\n(Sec. 617) NASA shall:\n\n develop a plan to fully remediate security vulnerabilities in NASA web applications, and implement the recommendations from the NASA Inspector General in a specified audit report to remove from the Internet or secure with a web application firewall all of NASA's web applications in development or testing mode. Subtitle B--Collaboration Among Mission Directorates and Other Matters\n\n(Sec. 621) NASA shall encourage an interdisciplinary approach among all NASA mission directorates and divisions for projects or missions to:\n\n improve coordination, and encourage collaboration and early planning on scope; determine areas of overlap or alignment; leverage across divisional perspectives to maximize outcomes; and be more efficient with resources and funds. (Sec. 622) NASA shall pursue a strategy for acquiring crewed transportation services and non-crewed launch services that continues to enhance communication, collaboration, and coordination between the Launch Services and Commercial Crew programs.\n\n(Sec. 623) NASA may enter into agreements with covered entities to provide them with space transportation infrastructure support and services, including to:\n\n maximize use of such infrastructure by the private sector, and encourage commercial space activities. Also, at such an entity's request, NASA may include in such an agreement that support and services in the contracted space launch and reentry range support requirements of NASA if:\n\n NASA determines that including that support and services in those requirements is in the best interest of the federal government, does not interfere with NASA requirements, does not compete with commercial space activities of other covered entities, and does not result in NASA retaining ownership of assets which are no longer needed to meet a programmatic mission of NASA; and any commercial requirement included in the agreement has full nonfederal funding before the implementation of the agreement. NASA may enter into an agreement with a covered entity on a cooperative and voluntary basis to accept funds, services, and equipment to carry out the purposes of this section.\n\nAny funds, services, or equipment accepted by NASA under this section:\n\n may be used only for the objectives specified in this section according to the terms of use set forth in the agreement, and shall be managed by NASA. An agreement entered into with a covered entity under this section shall:\n\n address the terms of use, ownership, and disposition of the funds, services, or equipment contributed under the agreement; include a provision that the covered entity will not recover the costs of its contribution through any other agreement with the United States; and include a provision that the contribution of the covered entity will not preclude access to or use by another covered entity. NASA shall submit annual reports to Congress on the process used to establish such agreements.\n\nThe bill defines \"covered entity\" as a nonfederal entity that:\n\n is organized under U.S. law or of any jurisdiction within the United States and is engaged in commercial space activities; or an entity that controls, is controlled by, or is under common control with, such a nonfederal entity. (Sec. 624) The bill expresses the sense of Congress that the presence of counterfeit electronic parts in NASA's supply chain poses a danger to astronauts, crew, and other NASA personnel and a risk to NASA overall.\n\nNASA shall revise specified regulations so as to improve the detection and avoidance of counterfeit electronic parts in its supply chain.\n\n(Sec. 625) NASA shall continue engagement with the public and educational opportunities for students using all NASA mission directorates.\n\nNASA shall report on its near-term outreach plans for advancing space law education.\n\n(Sec. 626) NASA shall identify orbital assets in specified mission directorates that could benefit from satellite servicing-related technologies and shall work across all NASA mission directorates to evaluate opportunities for the private sector to perform these services or advance technical capabilities by leveraging the technologies and techniques developed by NASA programs and other industry programs.\n\n(Sec. 627) In order to conduct necessary research, NASA shall continue, and as appropriate, consider expanding the development of technology payloads for scientific research and the investigation of new or improved capabilities.\n\nTo carry out such purpose, NASA shall make funds available for flight testing, payload development, and hardware related to such research and investigation.\n\nCongress reaffirms that NASA should provide flight opportunities for payloads to microgravity environments and suborbital altitudes.\n\n(Sec. 628) The bill expresses the sense of Congress on specified small class launch missions."
+  }, 
+  "titles": [
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "National Aeronautics and Space Administration Transition Authorization Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": true, 
+      "title": "Scott Kelly Human Spaceflight and Exploration Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": false, 
+      "title": "National Aeronautics and Space Administration Transition Authorization Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "reported to senate", 
+      "is_for_portion": true, 
+      "title": "Scott Kelly Human Spaceflight and Exploration Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": false, 
+      "title": "National Aeronautics and Space Administration Transition Authorization Act of 2016", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": true, 
+      "title": "To Research, Evaluate, Assess, and Treat Astronauts Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "passed senate", 
+      "is_for_portion": true, 
+      "title": "TREAT Astronauts Act", 
+      "type": "short"
+    }, 
+    {
+      "as": "introduced", 
+      "is_for_portion": false, 
+      "title": "A bill to authorize the programs of the National Aeronautics and Space Administration, and for other purposes.", 
+      "type": "official"
+    }, 
+    {
+      "as": null, 
+      "is_for_portion": false, 
+      "title": "National Aeronautics and Space Administration Transition Authorization Act of 2016", 
+      "type": "display"
+    }
+  ], 
+  "updated_at": "2017-01-13T17:14:28Z", 
+  "url": "https://www.gpo.gov/fdsys/bulkdata/BILLSTATUS/114/s/BILLSTATUS-114s3346.xml"
+}
