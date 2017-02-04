@@ -37,7 +37,7 @@ public class BillOrganizer{
     			if(file.getName().contains("data.json")){
     				JSONObject data = JSONUtils.getJSONObject(file);
     				String bill = data.getString("bill_id");
-    				FileUtils.copyFile(file, new File(newDirName + "\\sbill_" + bill));
+    				FileUtils.copyFile(file, new File(newDirName + "\\" + bill));
     				count++;
     			}
     		}		
