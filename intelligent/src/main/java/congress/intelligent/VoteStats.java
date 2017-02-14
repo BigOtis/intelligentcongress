@@ -1,12 +1,19 @@
 package congress.intelligent;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import congress.items.Bill;
+import congress.items.IndividualVote;
+import congress.items.Vote;
 import utils.JSONUtils;
 
 public class VoteStats {
@@ -20,9 +27,69 @@ public class VoteStats {
 //		vs.printStats("s113", "2014");
 //		vs.printStats("s114", "2015");
 //		vs.printStats("s114", "2016");	
-		vs.getIndividualVoteStats("S270", "s114", "2016");
+//		vs.getIndividualVoteStats("S270", "s114", "2016");
+		Map<String, List<IndividualVote>> personVotes = vs.loadAllVotes("s114", "2016");
+		vs.countVoteTypes(personVotes.get("S270"));
+	}
+	
+	public void countVoteTypes(List<IndividualVote> votes){
+		// Schumer
+		System.out.println("Total Number of votes: " + votes.size());
+		Set<String> yeaSubjects = new HashSet<>();
+		Set<String> naySubjects = new HashSet<>();
+
+		int yea = 0;
+		int nay = 0;
+		int nv = 0;
+		int p = 0;
+		for(IndividualVote vote : votes){
+			if(vote.getVoteType().equals(IndividualVote.VOTE_YEA)){
+				Bill bill = vote.getFullVote().getBill();
+				if(bill != null){
+					yeaSubjects.add(bill.getTopSubject());
+				}
+				yea++;
+			}
+			if(vote.getVoteType().equals(IndividualVote.VOTE_NAY)){
+				Bill bill = vote.getFullVote().getBill();
+				if(bill != null){
+					naySubjects.add(bill.getTopSubject());
+				}
+				nay++;
+			}
+			if(vote.getVoteType().equals(IndividualVote.VOTE_NOT_VOTING)){
+				nv++;
+			}
+			if(vote.getVoteType().equals(IndividualVote.VOTE_PRESENT)){
+				p++;
+			}
+		}
+		System.out.println("Yea: " + yea);
+		System.out.println("Nay: " + nay);
+		System.out.println("Not Voting: " + nv);
+		System.out.println("Presemt: " + p);
+		System.out.println("Yea Subj: " + yeaSubjects);
+		System.out.println("Nay Subj: " + naySubjects);
+
+
+
+	}
+	
+	public Map<String, List<IndividualVote>> loadAllVotes(String congress, String year){
 		
-		System.out.println("Total number bill votes: " + vs.billVotes);
+		Map<String, List<IndividualVote>> personVotes = new HashMap<>();
+		
+		File votesDir = new File(congress + "_" + year + "_votes");
+		// Not Voting - Nay - Yea
+		for(File voteFile : votesDir.listFiles()){
+			JSONObject voteJSON = JSONUtils.getJSONObject(voteFile);
+			Vote vote = new Vote(voteJSON);
+			for(IndividualVote iVote : vote.getIndividualVotes()){
+				mapAddToList(personVotes, iVote.getID(), iVote);
+			}
+		}
+		
+		return personVotes;
 	}
 	
 	public void getIndividualVoteStats(String id, String congress, String year){
@@ -35,7 +102,10 @@ public class VoteStats {
 				JSONObject votes = vote.getJSONObject("votes");
 				JSONArray ary = votes.getJSONArray("Yea");
 				for(int i = 0; i < ary.length(); i++){
-					//JSONObject personVote = ary.get(i);
+					JSONObject personVote = (JSONObject) ary.get(i);
+					if(personVote.getString("id").equals(id)){
+						System.out.println("Yea");
+					}
 				}
 			}
 		}
@@ -62,6 +132,17 @@ public class VoteStats {
 	public void printMap(Map<?,?> map){
 		for(Object key : map.keySet()){
 			System.out.println(key + " : " + map.get(key));
+		}
+	}
+	
+	public void mapAddToList(Map<String, List<IndividualVote>> map, String key, IndividualVote value){
+		if(map.get(key) == null){
+			List<IndividualVote> list = new ArrayList<>();
+			list.add(value);
+			map.put(key, list);
+		}
+		else{
+			map.get(key).add(value);
 		}
 	}
 	
