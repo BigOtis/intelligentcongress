@@ -1,4 +1,4 @@
-package congress.mongodb;
+package congress.mongodb.load;
 
 import java.io.File;
 
@@ -34,12 +34,6 @@ public class ImportBills {
 		
 		Document dbObject = Document.parse(json);
 		collection.insertOne(dbObject);
-
-//		collection = db.getCollection("congressDB");
-//		MongoCursor<Document> cursorDocJSON = collection.find().iterator();
-//		while (cursorDocJSON.hasNext()) {
-//			System.out.println(cursorDocJSON.next());
-//		}
 	}
 
 }
