@@ -67,7 +67,7 @@ public class VoteStats {
 		System.out.println("Yea: " + yea);
 		System.out.println("Nay: " + nay);
 		System.out.println("Not Voting: " + nv);
-		System.out.println("Presemt: " + p);
+		System.out.println("Present: " + p);
 		System.out.println("Yea Subj: " + yeaSubjects);
 		System.out.println("Nay Subj: " + naySubjects);
 

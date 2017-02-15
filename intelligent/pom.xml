@@ -32,5 +32,10 @@
     	<artifactId>commons-io</artifactId>
     	<version>2.5</version>
 	</dependency>
+	<dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver</artifactId>
+        <version>3.4.2</version>
+    </dependency>
   </dependencies>
 </project>

@@ -9,7 +9,12 @@ import org.json.JSONObject;
 public class JSONUtils {
 
     public static JSONObject getJSONObject(File f){
-        
+    	String jsonStr = getFileAsString(f);
+    	JSONObject json = new JSONObject(jsonStr);
+    	return json;
+    }
+    
+    public static String getFileAsString(File f){
     	try{
 	    	String jsonStr = "";
 	    	BufferedReader reader = new BufferedReader(new FileReader(f));
@@ -17,10 +22,8 @@ public class JSONUtils {
 	    	while((ln = reader.readLine()) != null){
 	    		jsonStr += ln;
 	    	}
-	    	
-	    	JSONObject json = new JSONObject(jsonStr);
 	    	reader.close();
-	    	return json;
+	    	return jsonStr;
     	}
     	catch(Exception e){
     		return null;
