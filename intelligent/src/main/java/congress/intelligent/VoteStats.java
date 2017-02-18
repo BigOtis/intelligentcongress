@@ -34,42 +34,42 @@ public class VoteStats {
 	
 	public void countVoteTypes(List<IndividualVote> votes){
 		// Schumer
-		System.out.println("Total Number of votes: " + votes.size());
-		Set<String> yeaSubjects = new HashSet<>();
-		Set<String> naySubjects = new HashSet<>();
-
-		int yea = 0;
-		int nay = 0;
-		int nv = 0;
-		int p = 0;
-		for(IndividualVote vote : votes){
-			if(vote.getVoteType().equals(IndividualVote.VOTE_YEA)){
-				Bill bill = vote.getFullVote().getBill();
-				if(bill != null){
-					yeaSubjects.add(bill.getTopSubject());
-				}
-				yea++;
-			}
-			if(vote.getVoteType().equals(IndividualVote.VOTE_NAY)){
-				Bill bill = vote.getFullVote().getBill();
-				if(bill != null){
-					naySubjects.add(bill.getTopSubject());
-				}
-				nay++;
-			}
-			if(vote.getVoteType().equals(IndividualVote.VOTE_NOT_VOTING)){
-				nv++;
-			}
-			if(vote.getVoteType().equals(IndividualVote.VOTE_PRESENT)){
-				p++;
-			}
-		}
-		System.out.println("Yea: " + yea);
-		System.out.println("Nay: " + nay);
-		System.out.println("Not Voting: " + nv);
-		System.out.println("Present: " + p);
-		System.out.println("Yea Subj: " + yeaSubjects);
-		System.out.println("Nay Subj: " + naySubjects);
+//		System.out.println("Total Number of votes: " + votes.size());
+//		Set<String> yeaSubjects = new HashSet<>();
+//		Set<String> naySubjects = new HashSet<>();
+//
+//		int yea = 0;
+//		int nay = 0;
+//		int nv = 0;
+//		int p = 0;
+//		for(IndividualVote vote : votes){
+//			if(vote.getVoteType().equals(IndividualVote.VOTE_YEA)){
+//				Bill bill = vote.getFullVote().getBill();
+//				if(bill != null){
+//					yeaSubjects.add(bill.getTopSubject());
+//				}
+//				yea++;
+//			}
+//			if(vote.getVoteType().equals(IndividualVote.VOTE_NAY)){
+//				Bill bill = vote.getFullVote().getBill();
+//				if(bill != null){
+//					naySubjects.add(bill.getTopSubject());
+//				}
+//				nay++;
+//			}
+//			if(vote.getVoteType().equals(IndividualVote.VOTE_NOT_VOTING)){
+//				nv++;
+//			}
+//			if(vote.getVoteType().equals(IndividualVote.VOTE_PRESENT)){
+//				p++;
+//			}
+//		}
+//		System.out.println("Yea: " + yea);
+//		System.out.println("Nay: " + nay);
+//		System.out.println("Not Voting: " + nv);
+//		System.out.println("Present: " + p);
+//		System.out.println("Yea Subj: " + yeaSubjects);
+//		System.out.println("Nay Subj: " + naySubjects);
 
 
 

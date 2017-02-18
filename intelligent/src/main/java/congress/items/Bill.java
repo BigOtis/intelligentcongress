@@ -3,12 +3,19 @@ package congress.items;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class Bill {
+	
+	
 
 	private JSONObject billJSON;
+	
+	public Bill(Document doc){
+		this.billJSON = new JSONObject(doc.toJson());
+	}
 	
 	public Bill (JSONObject billJSON){
 		this.billJSON = billJSON;

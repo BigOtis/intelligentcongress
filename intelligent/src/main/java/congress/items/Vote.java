@@ -1,14 +1,10 @@
 package congress.items;
 
-import java.io.File;
-import java.io.FileFilter;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-
-import utils.JSONUtils;
 
 public class Vote {
 	
@@ -67,26 +63,5 @@ public class Vote {
 	
 	public String getCongressName(){
 		return voteJSON.getString("chamber") + getCongressNumber();
-	}
-	
-	public Bill getBill(){
-		
-		File dir = new File(getCongressName() + "_bills");
-		File[] files = dir.listFiles(new FileFilter() {
-			@Override
-			public boolean accept(File pathname) {
-				String billName = getBillName();
-				if(pathname.getName().equals(billName)){
-					return true;
-				}
-				return false;
-			}
-		});
-		if(files.length == 0){
-			System.err.println("Bill not found: " + getBillName());
-			return null;
-		}
-		
-		return new Bill(JSONUtils.getJSONObject(files[0]));
 	}
 }
