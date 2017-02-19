@@ -7,9 +7,12 @@ import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+/**
+ * I'm just a bill...
+ * @author pgl57
+ *
+ */
 public class Bill {
-	
-	
 
 	private JSONObject billJSON;
 	
@@ -56,7 +59,13 @@ public class Bill {
 	}
 	
 	public String getSummaryText(){
-		return billJSON.getJSONObject("summary").getString("text");
+		try{
+			return billJSON.getJSONObject("summary").getString("text");
+		}
+		catch(Exception e){
+			System.err.println("No summary text");
+			return null;
+		}
 	}
 	
 	public String getIntroducedDate(){

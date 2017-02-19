@@ -3,14 +3,22 @@ package congress.items;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import congress.mongo.facade.MongoDBFacade;
 
 public class Vote {
 	
 	public static final String[] voteTypeNames = new String[]{"Yea", "Nay", "Present", "Not Voting"};
 
 	private JSONObject voteJSON;
+	private Bill bill = null;
+	
+	public Vote(Document voteBSON){
+		this.voteJSON = new JSONObject(voteBSON.toJson());
+	}
 	
 	public Vote(JSONObject voteJSON){
 		this.voteJSON = voteJSON;
@@ -25,7 +33,31 @@ public class Vote {
 			// Not a bill
 			return null;
 		}
-		return "s" + bill.getInt("number") + "-" + bill.get("congress");
+		return getChamber() + bill.getInt("number") + "-" + bill.get("congress");
+	}
+	
+	public Bill getBill(MongoDBFacade db){
+		if(bill != null){
+			return bill;
+		}
+		Bill b = db.queryBill(getCongressName(), getBillNumber(), getChamber());
+		return b;
+	}
+	
+	public String getBillNumber(){
+		JSONObject bill;
+		try{
+			bill = voteJSON.getJSONObject("bill");
+		}
+		catch(Exception e){
+			// Not a bill
+			return null;
+		}
+		return bill.getInt("number") + "";
+	}
+	
+	public String getChamber(){
+		return voteJSON.getString("chamber");
 	}
 	
 	public int getVoteNumber(){
