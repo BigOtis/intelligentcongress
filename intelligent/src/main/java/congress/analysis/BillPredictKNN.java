@@ -51,11 +51,9 @@ public class BillPredictKNN {
 		Collections.sort(votes, bvc);
 		
 		
-		System.out.println("V1:\t" + v1.getVoteType() + "\tText: " + v1.getFullVote().getBill(MongoDBFacade.getInstance()).getTitle());
+		System.out.println("V1:\t" + v1.getVoteType());
 		for(int i = 0; i < 5; i++){
 			String result = "Result:\t" + votes.get(i).getVoteType();
-			result += "\tText: ";
-			result += votes.get(i).getFullVote().getBill(MongoDBFacade.getInstance()).getTitle();
 			System.out.println(result);
 		}
 		

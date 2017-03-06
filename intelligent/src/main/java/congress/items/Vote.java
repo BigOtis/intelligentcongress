@@ -2,6 +2,7 @@ package congress.items;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import org.bson.Document;
 import org.json.JSONArray;
@@ -15,6 +16,7 @@ public class Vote {
 
 	private JSONObject voteJSON;
 	private Bill bill = null;
+	private MongoDBFacade mongo = MongoDBFacade.getInstance();
 	
 	public Vote(Document voteBSON){
 		this.voteJSON = new JSONObject(voteBSON.toJson());
@@ -36,11 +38,15 @@ public class Vote {
 		return getChamber() + bill.getInt("number") + "-" + bill.get("congress");
 	}
 	
-	public Bill getBill(MongoDBFacade db){
+	public Map<String, Integer> getBillWordFrequency(){
+		return null;
+	}
+	
+	public Bill getBill(){
 		if(bill != null){
 			return bill;
 		}
-		Bill b = db.queryBill(getCongressName(), getBillNumber(), getChamber());
+		Bill b = mongo.queryBill(getCongressName(), getBillNumber(), getChamber());
 		return b;
 	}
 	
