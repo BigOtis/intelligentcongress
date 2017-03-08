@@ -18,7 +18,7 @@ public class ImportBillText {
 		MongoDatabase db = mongo.getDatabase("CongressDB");
 		MongoCollection<Document> collection = db.getCollection("SenateBillText");
 		
-		String[] billFolders = new String[]{"114"};
+		String[] billFolders = new String[]{"113"};
 		
 		for(String dirName : billFolders){
 			System.out.println("Adding bills text from: " + dirName);

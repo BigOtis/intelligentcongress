@@ -8,6 +8,8 @@ public class IndividualVote {
 	public static final String VOTE_NAY = "Nay";
 	public static final String VOTE_PRESENT = "Present";
 	public static final String VOTE_NOT_VOTING = "Not Voting";
+	
+	public Double cossim = null;
 
 	private JSONObject vote;
 	private String voteType;

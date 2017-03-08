@@ -23,6 +23,7 @@ public class CreateWordCountVector {
 				String text = doc.getString("bill_text");
 				Document wordCount = getWordFrequency(text);
 				doc.append("wordCounts", wordCount);
+				//doc.remove("wordCounts", wordCount);
 				collection.replaceOne(new Document().append("bill_id", doc.getString("bill_id")), doc);
 			}
 		}

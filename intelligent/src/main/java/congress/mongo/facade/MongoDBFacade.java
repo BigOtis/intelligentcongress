@@ -37,7 +37,9 @@ public class MongoDBFacade {
 		List<IndividualVote> voteObjects = new ArrayList<>();
 		for(Document doc : votes){
 			Vote vote = new Vote(doc);
-			voteObjects.addAll(vote.getIndividualVotes());
+			if(vote.hasAssociatedBillText() && "passage".equals(vote.getCategory())){
+				voteObjects.addAll(vote.getIndividualVotes());
+			}
 		}
 		return voteObjects;
 	}
