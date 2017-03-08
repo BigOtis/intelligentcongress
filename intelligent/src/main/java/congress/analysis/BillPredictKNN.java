@@ -25,7 +25,7 @@ public class BillPredictKNN {
 	public static void main(String args[]){
 		
 		MongoDBFacade db = MongoDBFacade.getInstance();
-		List<IndividualVote> votes = db.queryAllVotes();
+		List<IndividualVote> votes = db.queryAllPassageVotes();
 		System.out.println("Found: " + votes.size() + " votes");
 				
 		Map<String, List<IndividualVote>> legislatorVoteMap = createLegislatorVoteMap(votes);
@@ -39,23 +39,23 @@ public class BillPredictKNN {
 		BillPredictKNN knn = new BillPredictKNN();
 		
 		// Do KNN on a text file
-		int textYea = 0;
-		int textNay = 0;
-		Map<CharSequence, Integer> toGuess = getWordFrequency(JSONUtils.getFileAsString(new File("ACAReplace.txt")));
-
-		for(String individual : legislatorVoteMap.keySet()){
-			boolean result = knn.doKNNForText(votes, toGuess, 5);
-			if(result){
-				textYea++;
-				System.out.println(individual + " : " + "YEA");
-			}
-			else{
-				textNay++;
-				System.out.println(individual + " : " + "NAY");
-			}
-		}
-		
-		System.out.println("Yea: " + textYea + " Nay: " + textNay);
+//		int textYea = 0;
+//		int textNay = 0;
+//		Map<CharSequence, Integer> toGuess = getWordFrequency(JSONUtils.getFileAsString(new File("ACAReplace.txt")));
+//
+//		for(String individual : legislatorVoteMap.keySet()){
+//			boolean result = knn.doKNNForText(votes, toGuess, 5);
+//			if(result){
+//				textYea++;
+//				System.out.println(individual + " : " + "YEA");
+//			}
+//			else{
+//				textNay++;
+//				System.out.println(individual + " : " + "NAY");
+//			}
+//		}
+//		
+//		System.out.println("Yea: " + textYea + " Nay: " + textNay);
 		
 		// Count total number yea / nay votes
 		int yea = 0;
