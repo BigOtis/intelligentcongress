@@ -1,5 +1,7 @@
 package congress.mongo.facade;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +16,12 @@ import congress.items.Bill;
 import congress.items.IndividualVote;
 import congress.items.Vote;
 
+/**
+ * Simple interface made to work with the US Congress MongoDB
+ * 
+ * @author Phillip Lopez - pgl5711@rit.edu
+ *
+ */
 public class MongoDBFacade {
 	
 	private static MongoDBFacade instance = new MongoDBFacade();
@@ -22,6 +30,13 @@ public class MongoDBFacade {
 	public MongoDatabase db;
 	
 	public MongoDBFacade(){
+        try {
+			System.getProperties().load(new FileInputStream("mongo.properties"));
+		} catch (IOException e) {
+			System.err.println("MISSING MONGO.PROPERTIES FILE. DB WILL NOT LOAD CORRECTLY.");
+		}
+		mongo = new MongoClient(System.getProperty("mongo.address"), 
+				Integer.valueOf(System.getProperty("mongo.port")));		
 		mongo = new MongoClient("localhost", 27017);
 		db = mongo.getDatabase("CongressDB");
 	}
