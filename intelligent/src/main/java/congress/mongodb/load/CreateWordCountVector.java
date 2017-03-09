@@ -4,13 +4,13 @@ import org.bson.Document;
 
 import com.mongodb.client.MongoCollection;
 
-import congress.mongo.facade.MongoDBFacade;
+import congress.mongo.facade.MongoFacade;
 
 public class CreateWordCountVector {
 	
 	public static void main(String args[]){
 		
-		MongoDBFacade facade = MongoDBFacade.getInstance();
+		MongoFacade facade = MongoFacade.getInstance();
 		MongoCollection<Document> collection = facade.db.getCollection("SenateBillText");
 		
 		int count = 1;

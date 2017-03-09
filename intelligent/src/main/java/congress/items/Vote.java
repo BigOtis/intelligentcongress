@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 import com.mongodb.client.MongoCollection;
 
-import congress.mongo.facade.MongoDBFacade;
+import congress.mongo.facade.MongoFacade;
 
 public class Vote {
 	
@@ -19,7 +19,7 @@ public class Vote {
 
 	private JSONObject voteJSON;
 	private Bill bill = null;
-	private MongoDBFacade mongo = MongoDBFacade.getInstance();
+	private MongoFacade mongo = MongoFacade.getInstance();
 	private Map<CharSequence, Integer> billWordFrequency = null;
 	
 	public Vote(Document voteBSON){

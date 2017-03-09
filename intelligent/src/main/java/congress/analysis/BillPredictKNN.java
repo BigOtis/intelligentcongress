@@ -11,7 +11,7 @@ import java.util.Map;
 import org.apache.commons.text.beta.similarity.CosineSimilarity;
 
 import congress.items.IndividualVote;
-import congress.mongo.facade.MongoDBFacade;
+import congress.mongo.facade.MongoFacade;
 import utils.JSONUtils;
 
 /**
@@ -24,7 +24,7 @@ public class BillPredictKNN {
 
 	public static void main(String args[]){
 		
-		MongoDBFacade db = MongoDBFacade.getInstance();
+		MongoFacade db = MongoFacade.getInstance();
 		List<IndividualVote> votes = db.queryAllPassageVotes();
 		System.out.println("Found: " + votes.size() + " votes");
 				

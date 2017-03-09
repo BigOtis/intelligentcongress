@@ -23,12 +23,17 @@ import congress.items.Vote;
  * @author Phillip Lopez - pgl5711@rit.edu
  *
  */
-public class MongoDBFacade {
+public class MongoFacade {
+	
+	public enum Party{
+		REPUBLICAN, DEMOCRAT, INDEPENDENT
+	}
+	
 	
 	/**
 	 * Singleton
 	 */
-	private static MongoDBFacade instance = new MongoDBFacade();
+	private static MongoFacade instance = new MongoFacade();
 	
 	/**
 	 * MongoClient API
@@ -40,7 +45,7 @@ public class MongoDBFacade {
 	 */
 	public MongoDatabase db;
 	
-	public MongoDBFacade(){
+	public MongoFacade(){
         try {
 			System.getProperties().load(new FileInputStream("mongo.properties"));
 		} catch (IOException e) {
@@ -52,7 +57,7 @@ public class MongoDBFacade {
 		db = mongo.getDatabase("CongressDB");
 	}
 	
-	public static MongoDBFacade getInstance(){
+	public static MongoFacade getInstance(){
 		return instance;
 	}
 
@@ -96,4 +101,40 @@ public class MongoDBFacade {
 		return null;	
 	}
 	
+	public Document getLegislatorByBioID(String bioguide_id){
+		
+		MongoCollection<Document> legislators = db.getCollection("Legislators");
+		FindIterable<Document> results = legislators.find(new Document("id.bioguide", bioguide_id));
+		Document legislator = results.first();
+		
+		return legislator;
+	}
+	
+	/**
+	 * Gets the latest party affiliation for a legislator
+	 * @return
+	 */
+	@SuppressWarnings("unchecked")
+	public Party getLegislatorParty(String bioguide_id){
+		
+		Document legislator = getLegislatorByBioID(bioguide_id);
+		if(legislator == null){
+			System.err.println("Unable to find legislator: " + bioguide_id);
+			return null;
+		}
+		
+		List<Document> terms = (List<Document>) legislator.get("terms");
+		Document term = terms.get(terms.size()-1);
+		String party = term.getString("party");
+		
+		if("Republican".equals(party)){
+			return Party.REPUBLICAN;
+		}
+		else if("Democrat".equals(party)){
+			return Party.DEMOCRAT;
+		}
+		else{
+			return Party.INDEPENDENT;
+		}
+	}
 }
