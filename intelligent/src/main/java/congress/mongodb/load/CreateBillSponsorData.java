@@ -50,7 +50,5 @@ public class CreateBillSponsorData {
 			
 			bills.replaceOne(new Document("_id", bill.get("_id")), bill);
 		}
-		
 	}
-	
 }

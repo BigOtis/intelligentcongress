@@ -7,6 +7,9 @@ import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import congress.mongo.facade.MongoFacade;
+import congress.mongo.facade.MongoFacade.Party;
+
 /**
  * I'm just a bill...
  * @author pgl57
@@ -70,5 +73,18 @@ public class Bill {
 	
 	public String getIntroducedDate(){
 		return billJSON.getString("introduced_at");
+	}
+	
+	public int getNumRepublicanSponsors(){
+		return billJSON.getInt("rep_sponsors");
+	}
+	
+	public int getNumDemocraticSponsors(){
+		return billJSON.getInt("dem_sponsors");
+
+	}
+	
+	public Party getSponsorParty(){
+		return MongoFacade.getParty(billJSON.getString("sponsor_party"));
 	}
 }

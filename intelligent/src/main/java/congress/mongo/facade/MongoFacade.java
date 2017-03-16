@@ -3,7 +3,9 @@ package congress.mongo.facade;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.bson.Document;
 
@@ -28,7 +30,6 @@ public class MongoFacade {
 	public enum Party{
 		REPUBLICAN, DEMOCRAT, INDEPENDENT
 	}
-	
 	
 	/**
 	 * Singleton
@@ -75,8 +76,10 @@ public class MongoFacade {
 		List<IndividualVote> voteObjects = new ArrayList<>();
 		for(Document doc : votes){
 			Vote vote = new Vote(doc);
-			if(vote.hasAssociatedBillText() && "passage".equals(vote.getCategory())){
-				voteObjects.addAll(vote.getIndividualVotes());
+			if(vote.getBill() != null){
+				if(vote.hasAssociatedBillText() && "passage".equals(vote.getCategory())){
+					voteObjects.addAll(vote.getIndividualVotes());
+				}
 			}
 		}
 		return voteObjects;
@@ -101,6 +104,11 @@ public class MongoFacade {
 		return null;	
 	}
 	
+	/**
+	 * Gets the legislator document for the given bioguide_id
+	 * @param bioguide_id
+	 * @return
+	 */
 	public Document getLegislatorByBioID(String bioguide_id){
 		
 		MongoCollection<Document> legislators = db.getCollection("Legislators");
@@ -131,6 +139,37 @@ public class MongoFacade {
 			return Party.REPUBLICAN;
 		}
 		else if("Democrat".equals(party)){
+			return Party.DEMOCRAT;
+		}
+		else{
+			return Party.INDEPENDENT;
+		}
+	}
+	
+	/**
+	 * Creates a map of individual votes
+	 * @param votes
+	 * @return
+	 */
+	public Map<String, List<IndividualVote>> createLegislatorVoteMap(List<IndividualVote> votes){
+		Map<String, List<IndividualVote>> legislatorVoteMap = new HashMap<>();
+		
+		for(IndividualVote vote : votes){
+			String name = vote.getDisplayName();
+			if(!legislatorVoteMap.containsKey(name)){
+				legislatorVoteMap.put(name, new ArrayList<>());
+			}
+			legislatorVoteMap.get(name).add(vote);			
+		}
+		
+		return legislatorVoteMap;
+	}
+	
+	public static Party getParty(String party){
+		if("REPUBLICAN".equals(party)){
+			return Party.REPUBLICAN;
+		}
+		else if("DEMOCRAT".equals(party)){
 			return Party.DEMOCRAT;
 		}
 		else{

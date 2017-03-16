@@ -1,6 +1,5 @@
 package congress.analysis;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -12,7 +11,6 @@ import org.apache.commons.text.beta.similarity.CosineSimilarity;
 
 import congress.items.IndividualVote;
 import congress.mongo.facade.MongoFacade;
-import utils.JSONUtils;
 
 /**
  * This experiment tests the effectiveness of KNN on 
@@ -28,7 +26,7 @@ public class BillPredictKNN {
 		List<IndividualVote> votes = db.queryAllPassageVotes();
 		System.out.println("Found: " + votes.size() + " votes");
 				
-		Map<String, List<IndividualVote>> legislatorVoteMap = createLegislatorVoteMap(votes);
+		Map<String, List<IndividualVote>> legislatorVoteMap = db.createLegislatorVoteMap(votes);
 		
 		// Total Number of votes for each Senator
 		for(String name : legislatorVoteMap.keySet()){
@@ -154,20 +152,6 @@ public class BillPredictKNN {
 			}
 		}
 		return yea > nay;
-	}
-	
-	public static Map<String, List<IndividualVote>> createLegislatorVoteMap(List<IndividualVote> votes){
-		Map<String, List<IndividualVote>> legislatorVoteMap = new HashMap<>();
-		
-		for(IndividualVote vote : votes){
-			String name = vote.getDisplayName();
-			if(!legislatorVoteMap.containsKey(name)){
-				legislatorVoteMap.put(name, new ArrayList<>());
-			}
-			legislatorVoteMap.get(name).add(vote);			
-		}
-		
-		return legislatorVoteMap;
 	}
 	
 	public void setupCossim(List<IndividualVote> votes, IndividualVote toGuess){
