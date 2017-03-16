@@ -1,6 +1,8 @@
 package congress.mongodb.load;
 
-import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -9,21 +11,23 @@ import java.util.Set;
 
 import org.bson.Document;
 
-import com.ibm.watson.developer_cloud.natural_language_classifier.v1.NaturalLanguageClassifier;
-import com.ibm.watson.developer_cloud.natural_language_classifier.v1.model.Classification;
-import com.ibm.watson.developer_cloud.natural_language_classifier.v1.model.Classifiers;
-import com.mongodb.DB;
+import com.ibm.watson.watson_developer_cloud.natural_language_understanding.NaturalLanguageUnderstanding;
 import com.mongodb.client.MongoCollection;
 
 import congress.items.IndividualVote;
 import congress.mongo.facade.MongoFacade;
-import utils.JSONUtils;
 
 public class LoadWatsonStats {
+	
+	private static NaturalLanguageUnderstanding nlu;
 
-	public static void main(String args[]){
+	public static void main(String args[]) throws FileNotFoundException, IOException{
 		
-		getWatsonTextAnalysis(JSONUtils.getFileAsString(new File("document.text")));
+		System.getProperties().load(new FileInputStream("watson.properties"));
+    	String username = System.getProperty("watson.analysis.username");
+    	String password = System.getProperty("watson.analysis.password");
+    	
+		nlu = new NaturalLanguageUnderstanding(username, password);
 		
 		MongoFacade mongo = MongoFacade.getInstance();
 		Map<String, List<IndividualVote>> votesMap = mongo.createLegislatorVoteMap(mongo.queryAllPassageVotes());
@@ -40,14 +44,22 @@ public class LoadWatsonStats {
 		for(String bill_id : bills){
 		
 			Document bill = textBills.find(new Document("bill_id", bill_id)).first();
-			String text = bill.getString("bill_text");
-			System.out.println(bill_id);
+			Document existDoc = watsonBills.find(new Document("bill_id", bill_id)).first();
+			if(existDoc == null){
+				String text = bill.getString("bill_text");
+				String analysisJSON = getWatsonTextAnalysis(text);
+				Document newDoc = Document.parse(analysisJSON);
+				newDoc.append("bill_id", bill_id);
+				watsonBills.insertOne(newDoc);
+				System.out.println(bill_id + " complete");
+			}
 		}
 		
 	}
 	
-	public static void getWatsonTextAnalysis(String text){
+	public static String getWatsonTextAnalysis(String text){
 		
+		return nlu.analyze(nlu.getFeatures(), text, false).execute().toString();
 		
 	}
 		
