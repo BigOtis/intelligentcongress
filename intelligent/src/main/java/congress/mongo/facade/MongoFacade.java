@@ -109,6 +109,20 @@ public class MongoFacade {
 	 * @param bioguide_id
 	 * @return
 	 */
+	public Document getLegislatorByLisID(String lis_id){
+		
+		MongoCollection<Document> legislators = db.getCollection("Legislators");
+		FindIterable<Document> results = legislators.find(new Document("id.lis", lis_id));
+		Document legislator = results.first();
+		
+		return legislator;
+	}
+	
+	/**
+	 * Gets the legislator document for the given bioguide_id
+	 * @param bioguide_id
+	 * @return
+	 */
 	public Document getLegislatorByBioID(String bioguide_id){
 		
 		MongoCollection<Document> legislators = db.getCollection("Legislators");
@@ -134,16 +148,7 @@ public class MongoFacade {
 		List<Document> terms = (List<Document>) legislator.get("terms");
 		Document term = terms.get(terms.size()-1);
 		String party = term.getString("party");
-		
-		if("Republican".equals(party)){
-			return Party.REPUBLICAN;
-		}
-		else if("Democrat".equals(party)){
-			return Party.DEMOCRAT;
-		}
-		else{
-			return Party.INDEPENDENT;
-		}
+		return getParty(party);
 	}
 	
 	/**
@@ -151,7 +156,7 @@ public class MongoFacade {
 	 * @param votes
 	 * @return
 	 */
-	public Map<String, List<IndividualVote>> createLegislatorVoteMap(List<IndividualVote> votes){
+	public Map<String, List<IndividualVote>> createLegislatorNameVoteMap(List<IndividualVote> votes){
 		Map<String, List<IndividualVote>> legislatorVoteMap = new HashMap<>();
 		
 		for(IndividualVote vote : votes){
@@ -165,7 +170,27 @@ public class MongoFacade {
 		return legislatorVoteMap;
 	}
 	
+	/**
+	 * Creates a map of individual votes mapped to the legislators lis_id
+	 * @param votes
+	 * @return
+	 */
+	public Map<String, List<IndividualVote>> createLegislatorIDVoteMap(List<IndividualVote> votes){
+		Map<String, List<IndividualVote>> legislatorVoteMap = new HashMap<>();
+		
+		for(IndividualVote vote : votes){
+			String id = vote.getID();
+			if(!legislatorVoteMap.containsKey(id)){
+				legislatorVoteMap.put(id, new ArrayList<>());
+			}
+			legislatorVoteMap.get(id).add(vote);			
+		}
+		
+		return legislatorVoteMap;
+	}
+	
 	public static Party getParty(String party){
+		party = party.toUpperCase();
 		if("REPUBLICAN".equals(party)){
 			return Party.REPUBLICAN;
 		}

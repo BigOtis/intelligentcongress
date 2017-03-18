@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.bson.Document;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -50,11 +51,26 @@ public class Vote {
 		
 		Map<CharSequence, Integer> wordMap = new HashMap<>();
 		String bill_id = getChamber() + getBillNumber() + "-" + getCongressNumber();
+		MongoCollection<Document> watsonBills = mongo.db.getCollection("WatsonBills");
 		MongoCollection<Document> billText = mongo.db.getCollection("SenateBillText");
-		Document doc = billText.find(new Document().append("bill_id", bill_id)).first();
-		Document wordDoc = (Document) doc.get("wordCounts");
-		for(String word : wordDoc.keySet()){
-			wordMap.put(word, wordDoc.getInteger(word));
+		Document doc = watsonBills.find(new Document().append("bill_id", bill_id)).first();
+		Document textDoc = billText.find(new Document().append("bill_id", bill_id)).first();
+		String text = textDoc.getString("text");
+		List<Document> keywords = (List<Document>) doc.get("keywords");
+		for(Document kw : keywords){
+			String[] kws = kw.getString("text").split(" ");
+			for(String word : kws){
+				word = word.toLowerCase();
+				wordMap.put(word, StringUtils.countMatches(word, word));
+			}
+		}
+		List<Document> entities = (List<Document>) doc.get("entities");
+		for(Document kw : keywords){
+			String[] kws = kw.getString("text").split(" ");
+			for(String word : kws){
+				word = word.toLowerCase();
+				wordMap.put(word, StringUtils.countMatches(word, word));
+			}
 		}
 		billWordFrequency = wordMap;
 		return wordMap;
@@ -65,6 +81,7 @@ public class Vote {
 			return bill;
 		}
 		Bill b = mongo.queryBill(getCongressName(), getBillNumber(), getChamber());
+		bill = b;
 		return b;
 	}
 	

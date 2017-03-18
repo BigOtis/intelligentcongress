@@ -26,7 +26,7 @@ public class BillPredictKNN {
 		List<IndividualVote> votes = db.queryAllPassageVotes();
 		System.out.println("Found: " + votes.size() + " votes");
 				
-		Map<String, List<IndividualVote>> legislatorVoteMap = db.createLegislatorVoteMap(votes);
+		Map<String, List<IndividualVote>> legislatorVoteMap = db.createLegislatorNameVoteMap(votes);
 		
 		// Total Number of votes for each Senator
 		for(String name : legislatorVoteMap.keySet()){
@@ -99,7 +99,7 @@ public class BillPredictKNN {
 				
 					boolean expected = IndividualVote.VOTE_YEA.equals(voteType);
 					List<IndividualVote> votesCopy = new ArrayList<>(indVotes);
-					boolean result = knn.doKNN(votesCopy, vote, 11);
+					boolean result = knn.doKNN(votesCopy, vote, 7);
 					
 					if(result == expected){
 						numCorrect++;
@@ -137,8 +137,7 @@ public class BillPredictKNN {
 		
 		for(int i = 1; i < k && i < votes.size(); i++){
 			IndividualVote iv = votes.get(i);
-			
-			// Congress person voted yes
+
 			if(IndividualVote.VOTE_YEA.equals(iv.getVoteType())){
 				yea++;
 			}

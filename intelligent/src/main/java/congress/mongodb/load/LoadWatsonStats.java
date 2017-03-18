@@ -30,7 +30,7 @@ public class LoadWatsonStats {
 		nlu = new NaturalLanguageUnderstanding(username, password);
 		
 		MongoFacade mongo = MongoFacade.getInstance();
-		Map<String, List<IndividualVote>> votesMap = mongo.createLegislatorVoteMap(mongo.queryAllPassageVotes());
+		Map<String, List<IndividualVote>> votesMap = mongo.createLegislatorNameVoteMap(mongo.queryAllPassageVotes());
 		List<IndividualVote> votes = createVotesList(votesMap);
 		
 		Set<String> bills = new HashSet<>();
@@ -54,7 +54,6 @@ public class LoadWatsonStats {
 				System.out.println(bill_id + " complete");
 			}
 		}
-		
 	}
 	
 	public static String getWatsonTextAnalysis(String text){

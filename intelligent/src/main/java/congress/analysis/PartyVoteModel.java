@@ -14,7 +14,7 @@ public class PartyVoteModel {
 	public static void main(String args[]){
 		
 		MongoFacade mongo = MongoFacade.getInstance();
-		Map<String, List<IndividualVote>> votesMap = mongo.createLegislatorVoteMap(mongo.queryAllPassageVotes());
+		Map<String, List<IndividualVote>> votesMap = mongo.createLegislatorNameVoteMap(mongo.queryAllPassageVotes());
 		List<IndividualVote> votes = createVotesList(votesMap);
 			
 		int total = 0;
