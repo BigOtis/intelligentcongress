@@ -3,33 +3,28 @@ package congress.mongodb.load;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import org.bson.Document;
 
 import com.ibm.watson.watson_developer_cloud.natural_language_understanding.NaturalLanguageUnderstanding;
 import com.mongodb.client.MongoCollection;
 
-import congress.items.IndividualVote;
 import congress.mongo.facade.MongoFacade;
 
 public class LoadWatsonStats {
 	
 	private static NaturalLanguageUnderstanding nlu;
 	
-	private static boolean getBillsForSenator = true;
-	private static String senatorBioID = "S000033";
+	private static boolean getBillsForSenator = false;
+	private static String senatorBioID = "M000303";
 
 	public static void main(String args[]) throws FileNotFoundException, IOException{
 		
 		System.getProperties().load(new FileInputStream("watson.properties"));
-    	String username = System.getProperty("watson.analysis.username6");
-    	String password = System.getProperty("watson.analysis.password6");
+    	String username = System.getProperty("watson.analysis.username4");
+    	String password = System.getProperty("watson.analysis.password4");
     	
 		nlu = new NaturalLanguageUnderstanding(username, password);
 		
@@ -37,7 +32,8 @@ public class LoadWatsonStats {
 		MongoCollection<Document> watsonBills = mongo.db.getCollection("WatsonBills");
 		MongoCollection<Document> textBills = mongo.db.getCollection("SenateBillText");
 		List<String> legislatorBills = (List<String>) mongo.getLegislatorByBioID(senatorBioID).get("sponsored_bills");
-				
+			
+		System.out.println("Bills for " + senatorBioID + ": " + legislatorBills.size());
 		for(Document bill : textBills.find()){
 		
 			String bill_id = bill.getString("bill_id");
