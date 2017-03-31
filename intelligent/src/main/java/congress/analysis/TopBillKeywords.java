@@ -63,6 +63,28 @@ public class TopBillKeywords {
 			"department",
 			"Date ",
 			"U S C ",
+			"et seq ",
+			"general ",
+			"amendments",
+			"general",
+			"following new subparagraph",
+			"new item",
+			"SESSION Begun",
+			"Session",
+			"new section",
+			"following new clause",
+			"new paragraph",
+			"semicolon",
+			"subchapter",
+			"short title",
+			"subtitle",
+			"following new section",
+			"united states government",
+			"act",
+			"appropriate congressional committees",
+			"respect",
+
+
 	});
 
 	public static void main(String args[]){
@@ -81,22 +103,30 @@ public class TopBillKeywords {
 			List<Document> cleanedWords = new ArrayList<>();
 			for(Document kw : keywords){
 				String text = kw.getString("text");
-				if(!stopWords.contains(text)){
-					String cleaned = text.replaceAll("[^A-Za-z0-9]+", " ").replaceAll("\\s+", " ");;
-					Document cleanDoc = new Document();
-					cleanDoc.append("text", cleaned);
-					cleanDoc.append("relevance", kw.get("relevance"));
-					cleanedWords.add(cleanDoc);
-					if(wordCount.containsKey(text)){
-						wordCount.put(cleaned, wordCount.get(text) + 1);
-					}
-					else{
-						wordCount.put(cleaned, 1);
+				if(!stopWords.contains(text) && !(text.contains("Mr ") || text.contains("Ms ") || text.contains("Mrs "))){
+					String cleaned = text.replaceAll("[^A-Za-z0-9]+", " ").replaceAll("\\s+", " ").trim().toLowerCase();
+					if(cleaned.replaceAll("\\s+", "").length() > 0){
+						Document cleanDoc = new Document();
+						cleanDoc.append("text", cleaned);
+						cleanDoc.append("relevance", kw.get("relevance"));
+						cleanedWords.add(cleanDoc);
+						if(wordCount.containsKey(text)){
+							wordCount.put(cleaned, wordCount.get(text) + 1);
+						}
+						else{
+							wordCount.put(cleaned, 1);
+						}
 					}
 				}
 			}
 			doc.replace("keywords", cleanedWords);
 			wbills.findOneAndReplace(new Document("_id", doc.get("_id")), doc);
+		}
+		
+		for(String key : new ArrayList<String>(wordCount.keySet())){
+			if(wordCount.get(key) < 50){
+				wordCount.remove(key);
+			}
 		}
 		
 		List<String> words = new ArrayList<>(wordCount.keySet());
@@ -107,8 +137,11 @@ public class TopBillKeywords {
 			}
 		});
 		
-		for(String word : words){
-			System.out.println(word + ":\t\t" + wordCount.get(word));
-		}	
+		
+		Collections.reverse(words);
+		Document billStats = mongo.db.getCollection("Stats").find(new Document("type", "bill")).first();
+		billStats.append("topWordsCount", wordCount);
+		billStats.append("topWords", words);
+		mongo.db.getCollection("Stats").replaceOne(new Document("_id", billStats.get("_id")), billStats);
 	}
 }

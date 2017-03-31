@@ -54,7 +54,6 @@ public class MongoFacade {
 		}
 		mongo = new MongoClient(System.getProperty("mongo.address"), 
 				Integer.valueOf(System.getProperty("mongo.port")));		
-		mongo = new MongoClient("localhost", 27017);
 		db = mongo.getDatabase("CongressDB");
 	}
 	
