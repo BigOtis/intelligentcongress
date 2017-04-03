@@ -83,6 +83,11 @@ public class TopBillKeywords {
 			"act",
 			"appropriate congressional committees",
 			"respect",
+			"paragraphs",
+			"government publishing office",
+			"chapter",
+			"amendment",
+			"person",
 
 
 	});
